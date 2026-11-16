@@ -1,0 +1,52 @@
+name: daily-stars
+
+on:
+  schedule:
+    - cron: "17 21 * * *"   # 매일 한국 시간 06:17 (대시보드 매일 작업 07:00보다 먼저)
+  workflow_dispatch: {}      # Actions 탭에서 수동 실행
+
+permissions:
+  contents: write   # 수집 데이터 커밋
+  id-token: write   # Claude API 인증 (Workload Identity Federation, API 키 없음)
+
+concurrency:
+  group: daily-stars
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      # Claude Console > Settings > Workload identity 의 규칙 "dashboard-stars-daily" (비밀값 아님, 식별자)
+      ANTHROPIC_FEDERATION_RULE_ID: fdrl_01Mr54YyaBou56EZKavdtYsz
+      ANTHROPIC_ORGANIZATION_ID: 52604f7c-3f7d-4280-bc46-680c42efd302
+      ANTHROPIC_SERVICE_ACCOUNT_ID: svac_01P8Y8Qq2emdCe6SELyHz7BT
+      ANTHROPIC_WORKSPACE_ID: wrkspc_01SKxbh7Hh5kanpAKEWhzEhs
+      ANTHROPIC_IDENTITY_TOKEN_FILE: /tmp/gha-jwt
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Anthropic SDK
+        run: pip install --quiet --upgrade anthropic
+
+      - name: Collect stars and write results
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: $(TZ=Asia/Seoul date +%F)"
+            git push
+          fi

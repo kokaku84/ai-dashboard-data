@@ -1,0 +1,15 @@
+{
+ "_comment": "추적 태그(GitHub 토픽). 대시보드 관리 페이지의 태그와 맞춥니다. medical은 의료영상 레이더에 쓰는 토픽입니다.",
+ "tags": [
+  "agent-skills",
+  "dicom",
+  "image-processing",
+  "medical-imaging",
+  "pacs"
+ ],
+ "medical": [
+  "dicom",
+  "medical-imaging",
+  "pacs"
+ ]
+}

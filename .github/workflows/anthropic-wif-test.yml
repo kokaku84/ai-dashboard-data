@@ -1,0 +1,35 @@
+# Claude Console 연결 테스트용 (Workload Identity Federation). 확인이 끝나면 지워도 됩니다.
+name: anthropic-wif-test
+on:
+  push:
+    paths:
+      - ".github/workflows/anthropic-wif-test.yml"
+  workflow_dispatch: {}
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  call-claude:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch GitHub OIDC token
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const token = await core.getIDToken('https://api.anthropic.com');
+            core.setSecret(token);
+            core.exportVariable('JWT', token);
+      - name: Exchange for an Anthropic access token
+        run: |
+          curl -sS https://api.anthropic.com/v1/oauth/token \
+            -H "content-type: application/json" \
+            --data @- <<JSON | jq 'with_entries(if (.key | test("token$")) then .value = "<redacted>" else . end)'
+          {
+            "grant_type": "urn:ietf:params:oauth:grant-type:jwt-bearer",
+            "assertion": "$JWT",
+            "federation_rule_id": "fdrl_01Mr54YyaBou56EZKavdtYsz",
+            "organization_id": "52604f7c-3f7d-4280-bc46-680c42efd302",
+            "service_account_id": "svac_01P8Y8Qq2emdCe6SELyHz7BT",
+            "workspace_id": "wrkspc_01SKxbh7Hh5kanpAKEWhzEhs"
+          }
+          JSON

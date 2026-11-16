@@ -1,0 +1,260 @@
+{
+ "morluto/rea": {
+  "description": "에이전트로 앱 동작부터 실행 파일 내부까지 분석하는 리버스 엔지니어링 도구",
+  "easy": "AI 에이전트가 앱이나 실행 파일을 내 컴퓨터에서 분석해 내부 동작을 알아내게 하는 도구입니다. 다른 프로그램의 기능이 어떻게 돌아가는지 조사할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "anthropics/skills": {
+  "description": "Anthropic이 공개한 Agent Skills 저장소",
+  "easy": "Claude가 특정 작업을 잘하도록 지침과 파일을 묶어 둔 '스킬'의 공식 예시 모음입니다. 우리 팀용 스킬을 만들 때 기본 형식을 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "DietrichGebert/ponytail": {
+  "description": "AI 에이전트가 꼭 필요한 코드만 쓰도록 이끄는 스킬",
+  "easy": "AI가 코드를 너무 많이 쓰는 것을 막는 스킬입니다. 결과물을 짧고 단순하게 유지하고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "addyosmani/agent-skills": {
+  "description": "AI 코딩 에이전트용 실무 엔지니어링 스킬 모음",
+  "easy": "코드 리뷰, 테스트, 성능 점검 같은 개발 작업을 AI 에이전트가 제대로 하도록 돕는 지침 모음입니다. 팀 스킬을 만들 때 참고 예시로 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "paperclipai/paperclip": {
+  "description": "여러 AI 에이전트를 조직처럼 묶어 관리하는 오픈소스 앱",
+  "easy": "여러 AI 에이전트의 목표, 업무, 예산, 승인을 한 화면에서 관리하는 앱입니다. 에이전트 여러 개를 동시에 돌리며 진행 상황과 비용을 챙길 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Leonxlnx/taste-skill": {
+  "description": "코딩 에이전트에 디자인 감각을 더해 주는 스킬",
+  "easy": "AI가 만든 티가 나는 뻔한 화면 대신 개성 있는 화면을 만들도록 돕는 스킬입니다. 웹사이트나 앱 화면을 만들거나 기존 페이지를 브라우저에서 점검해 고칠 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "nexu-io/open-design": {
+  "description": "코딩 에이전트로 디자인·프로토타입을 만드는 로컬 데스크톱 앱",
+  "easy": "AI 코딩 에이전트에게 화면 디자인과 시제품을 만들게 하고 결과물을 내보내는 앱입니다. 내 컴퓨터에서 돌아가 디자인 파일을 밖으로 보내지 않아도 됩니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "pbakaus/impeccable": {
+  "description": "AI 코딩 도구의 디자인 실력을 높여 주는 디자인 규칙 모음입니다.",
+  "easy": "AI에게 화면을 만들게 할 때 함께 주는 디자인 가이드입니다. 결과물의 완성도를 일정하게 맞추고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "tt-a1i/archify": {
+  "description": "아이디어와 코드를 대화형 다이어그램으로 바꾸는 에이전트 스킬",
+  "easy": "아이디어, 계획, 코드 구조를 눌러 볼 수 있는 그림으로 바꿔 주는 스킬입니다. 복잡한 구조를 팀원에게 설명할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "opencv/opencv": {
+  "description": "오픈소스 컴퓨터 비전 라이브러리",
+  "easy": "이미지와 영상을 읽고, 거르고, 분석하는 기능을 모아 둔 가장 널리 쓰이는 라이브러리입니다. C++로 만들어져 MFC 프로그램에서도 바로 쓸 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "roboflow/supervision": {
+  "description": "재사용할 수 있는 Python 컴퓨터 비전 도구 모음",
+  "easy": "물체 인식 결과를 화면에 그리거나 세는 등 영상 분석에서 반복되는 작업을 쉽게 해 주는 Python 도구입니다. 비전 AI 결과를 시각화할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "ocrmypdf/OCRmyPDF": {
+  "description": "스캔한 PDF에 검색 가능한 OCR 글자층을 넣는 도구",
+  "easy": "종이를 스캔한 PDF에서 글자를 인식해 검색과 복사가 되게 바꿔 줍니다. 스캔 문서를 정리할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "kmario23/deep-learning-drizzle": {
+  "description": "딥러닝·컴퓨터 비전·NLP 강의 모음",
+  "easy": "대학과 연구 기관의 딥러닝 관련 공개 강의를 주제별로 모은 목록입니다. 의료영상 AI를 공부하기 시작할 때 강의를 찾는 데 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "OHIF/Viewers": {
+  "description": "설치 없이 웹에서 여는 DICOM 뷰어",
+  "easy": "CT·MRI 같은 의료영상을 웹 브라우저에서 바로 볼 수 있게 해 주는 뷰어입니다. 병원 PACS와 연결해 쓰는 경우가 많아 의료영상 뷰어 구조를 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "linhandev/dataset": {
+  "description": "의료영상 데이터셋 목록",
+  "easy": "공개된 의료영상 데이터셋을 부위와 종류별로 정리한 목록입니다. 의료영상 AI를 학습시키거나 시험할 데이터를 찾을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "pydicom/pydicom": {
+  "description": "Python으로 DICOM 파일을 읽고 고치고 쓰는 라이브러리",
+  "easy": "DICOM 파일 안의 환자 정보나 영상 데이터를 Python 코드로 다룰 수 있게 해 줍니다. 테스트용 DICOM 파일을 만들거나 검사할 때 편합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "cornerstonejs/cornerstone": {
+  "description": "웹 의료영상 표시 라이브러리 (지원 종료, Cornerstone3D로 이전)",
+  "easy": "웹에서 의료영상을 보여 주던 JavaScript 라이브러리입니다. 지금은 지원이 끝났으니 새로 쓸 때는 후속작인 Cornerstone3D를 봐야 합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "suyashkumar/dicom": {
+  "description": "Go로 만든 고성능 DICOM 파서",
+  "easy": "DICOM 파일을 빠르게 읽어 내는 Go 언어 라이브러리입니다. 대량의 의료영상 파일을 서버에서 처리할 때 참고할 만합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "dicoogle/dicoogle": {
+  "description": "오픈소스 PACS",
+  "easy": "병원에서 의료영상을 저장하고 찾아 주는 PACS 서버를 오픈소스로 만든 것입니다. PACS 연동 기능을 시험할 서버가 필요할 때 쓸 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "l5769389/voxenra": {
+  "description": "CT·MRI·PET/CT용 크로스플랫폼 DICOM 뷰어",
+  "easy": "여러 단면 보기, 3D, 영상 합치기, AI 자동 분할까지 갖춘 데스크톱 DICOM 뷰어입니다. 데스크톱 의료영상 뷰어 기능을 비교해 볼 때 참고합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "GoogleChrome/modern-web-guidance": {
+  "description": "코딩 에이전트에게 최신 웹 개발 모범 사례를 알려 주는 Google Chrome 팀의 스킬",
+  "easy": "AI 코딩 도구가 오래된 방식 대신 최신 웹 표준대로 코드를 쓰게 돕는 스킬입니다. 웹 화면이나 웹 앱 작업을 AI에게 맡길 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "janestreet/agent_skills": {
+  "description": "Jane Street가 공개한 에이전트 스킬 모음 (질문으로 가르치는 튜터 스킬)",
+  "easy": "지금은 AI가 질문을 던지며 주제를 단계별로 가르치는 튜터 스킬 하나가 들어 있습니다. 새 기술을 AI와 함께 공부할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "GoogleChrome/modern-web-guidance-src": {
+  "description": "Modern Web Guidance 스킬을 만들고 시험하는 원본 저장소",
+  "easy": "바로 위 Modern Web Guidance 스킬의 내용을 쓰고 품질을 평가하는 곳입니다. 스킬을 어떻게 만들고 검증하는지 배울 때 참고합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Lee-xeo/Claude-Cage": {
+  "description": "Claude를 네트워크 유출 없이 격리해 돌리는 가벼운 가상 머신",
+  "easy": "AI 코딩 도구를 따로 떨어진 가상 컴퓨터 안에서 실행해 외부로 정보가 새지 않게 합니다. 회사 코드를 AI에게 맡길 때 안전장치로 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "pingdotgg/t3code": {
+  "description": "Claude Code·Codex·Cursor 같은 에이전트를 한곳에서 다루는 앱",
+  "easy": "내 컴퓨터의 여러 AI 코딩 도구를 웹, 데스크톱, 휴대폰 앱에서 제어합니다. 여러 도구를 한 화면에서 쓰고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "stablyai/orca": {
+  "description": "내 구독으로 여러 코딩 에이전트를 함께 돌리는 도구",
+  "easy": "이미 가진 AI 코딩 도구 구독으로 여러 에이전트를 동시에 실행합니다. 데스크톱, 휴대폰, 원격 환경에서 진행 상황을 챙길 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "deepseek-ai/dsh-superagent-prototype": {
+  "description": "GitHub 저장소 하나를 맡아 스스로 일하는 코딩 에이전트 시제품",
+  "easy": "허가된 사용자가 요청하면 작업을 만들어 따로 처리하고 풀 리퀘스트 같은 결과를 남깁니다. 공식 제품이 아닌 연구용 시제품이라 자율 에이전트 구조를 살펴볼 때 참고합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "cloudflare/security-audit-skill": {
+  "description": "여러 단계로 보안 점검을 하고 검증된 결과를 내는 코딩 에이전트 스킬",
+  "easy": "AI 코딩 도구가 코드의 보안 문제를 단계별로 찾고 확인까지 하게 돕습니다. 배포 전에 우리 코드의 약점을 점검할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "klusik/PHP_gallery": {
+  "description": "웹에서 관리하는 PHP 사진 갤러리",
+  "easy": "내 서버에 올려 쓰는 사진 갤러리로, 웹 관리 화면과 업로드 도구가 들어 있습니다. 사진을 직접 올려 공유하고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Breakthrough/PySceneDetect": {
+  "description": "영상의 장면 전환을 자동으로 찾는 Python 도구",
+  "easy": "영상에서 장면이 바뀌는 지점을 찾아 나눠 주는 도구입니다. 긴 영상을 장면별로 자르거나 분석할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "OSGeo/grass": {
+  "description": "오픈소스 지리공간 데이터 처리 엔진 (GRASS GIS)",
+  "easy": "지도나 위성 사진 같은 지리 데이터를 분석하고 처리하는 프로그램입니다. 위성·항공 영상을 다룰 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "matthew777777/RawLens": {
+  "description": "RAW 처리 중심의 오픈소스 안드로이드 카메라 앱",
+  "easy": "휴대폰 카메라의 원본(RAW) 데이터를 직접 처리해 사진을 만드는 앱입니다. 사진 처리 과정을 세밀하게 조절하고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "iTroy0/WebP-Converter": {
+  "description": "움직이는 WebP를 영상·GIF로 바꾸는 도구",
+  "easy": "움직이는 WebP 이미지를 영상이나 GIF로 바꿔 줍니다. WebP를 지원하지 않는 곳에 올려야 할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "getmochify/mochify-frontend": {
+  "description": "이미지 압축 서비스 Mochify의 웹 화면 코드",
+  "easy": "이미지를 작게 압축해 주는 서비스의 화면 부분을 공개한 것입니다. 실제 압축은 비공개 C++ 서버(libvips)가 맡습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "forbiddenlink/img-zen": {
+  "description": "이미지를 한꺼번에 처리·최적화하는 Rust 명령줄 도구",
+  "easy": "많은 이미지의 크기 조정과 용량 줄이기를 명령 한 줄로 처리합니다. 이미지 파일이 많을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Duecki1/CalibRaw": {
+  "description": "GPU 가속 오픈소스 RAW 사진 편집기",
+  "easy": "카메라 RAW 사진을 마스크, HDR 합치기, 로컬 AI 기능으로 보정하는 무료 편집기입니다. 여러 운영체제에서 사진을 보정할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "flawnull/a4print": {
+  "description": "이미지를 A4 인쇄용 페이지·포스터로 만드는 도구",
+  "easy": "이미지를 A4 용지에 맞추거나 여러 장으로 나눠 벽 포스터로 인쇄하게 해 줍니다. 로컬 AI로 화질을 키워 인쇄할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "shashankpc7746/PicturaAI": {
+  "description": "사진에 유명 화가 화풍을 입히는 AI 앱",
+  "easy": "사진을 유명 화가의 그림 스타일로 바꿔 주는 웹 앱입니다. 스타일 변환 AI가 어떻게 동작하는지 살펴볼 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Mihails-Birjukovs/Meso-scale_Solidification_Analysis": {
+  "description": "응고 현상 분석용 Mathematica 영상처리 코드",
+  "easy": "금속 같은 재료가 굳는 과정을 찍은 영상을 분석하는 연구용 코드입니다. 실험 영상에서 수치를 뽑는 방법을 참고할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "GustafMos/rsmps": {
+  "description": "노드 그래프 기반 픽셀 아트 제작 도구",
+  "easy": "팔레트, 28가지 디더링, 레이어, 스프라이트시트를 갖춘 픽셀 아트 프로그램입니다. 게임용 도트 그림을 만들 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "recp/im": {
+  "description": "빠른 이미지 로딩 라이브러리 (개발 중)",
+  "easy": "렌더링과 영상 분석에 쓸 이미지를 빠르게 읽어 오는 라이브러리입니다. 아직 개발 중이라 참고용으로 봅니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "jessolmstead/greycard": {
+  "description": "색 정확도를 중시한 RAW 사진 편집기",
+  "easy": "색을 정확하게 맞추는 데 중점을 둔 전문가용 RAW 사진 편집기입니다. 색 재현이 중요한 사진을 보정할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "nodetool-ai/nodetool": {
+  "description": "에이전트 중심 크리에이티브 작업 공간",
+  "easy": "AI 에이전트와 노드를 이어 이미지·영상 같은 창작 작업 흐름을 만드는 도구입니다. 여러 AI 작업을 이어 붙여 자동화할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ }
+}
