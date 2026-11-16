@@ -256,5 +256,245 @@
   "easy": "AI 에이전트와 노드를 이어 이미지·영상 같은 창작 작업 흐름을 만드는 도구입니다. 여러 AI 작업을 이어 붙여 자동화할 때 씁니다.",
   "exclude": false,
   "at": "2026-11-16"
+ },
+ "dabingfy-dot/solo-to-team-skills": {
+  "description": "한 사람이 여러 AI 에이전트를 팀처럼 운영하는 협업 툴킷",
+  "easy": "AI 에이전트에게 역할(통솔, 제작, 검토)을 나눠 주고, 결과물을 다른 에이전트가 검토한 뒤 기록까지 남기게 돕는 도구 모음입니다. 혼자서 여러 AI를 팀처럼 굴려 일을 맡기고 확인할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "kubai087/kubai-icons": {
+  "description": "일관된 스타일의 애니메이션 아이콘을 그려 주는 에이전트 스킬",
+  "easy": "Claude Code나 Codex 같은 코딩 에이전트가 같은 스타일의 움직이는 아이콘을 만들게 하는 스킬이며, MIT 라이선스 아이콘 2,800여 개도 함께 제공합니다. React, Vue, SVG 화면에 아이콘이 필요할 때 쓰면 좋습니다. MFC 데스크톱 뷰어보다는 웹 UI 쪽에 어울립니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Dodaios/ste80-humanizer": {
+  "description": "AI 티 나는 문장을 쉬운 기술 영어로 다듬는 스킬",
+  "easy": "AI가 쓴 글에서 흔한 AI 말투를 지우고, 항공기 정비 매뉴얼처럼 단순한 영어(ASD-STE100)에 가깝게 고쳐 쓰는 에이전트 스킬입니다. 영문 문서나 README를 더 또렷하고 사람이 쓴 것처럼 다듬고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Moh4696/cinematic-skill": {
+  "description": "코드만으로 내레이션 시네마틱 영상을 만드는 에이전트 스킬",
+  "easy": "코딩 에이전트에게 주제를 말하면 대본, 음성, 공개 사진을 모아 Python(Skia)으로 설명 영상을 그려 주는 스킬입니다. 제품 소개나 다큐 형식의 짧은 영상을 코드로 만들고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "mhfed/vn-law-check": {
+  "description": "베트남 법규 기준으로 웹사이트·앱을 점검하는 에이전트 스킬",
+  "easy": "개인정보보호법 등 베트남 법에 맞는지 AI 에이전트가 웹사이트나 앱을 검토하고 우선순위별 보고서를 만들어 줍니다. 베트남 시장에 서비스를 내놓기 전 법적 위험을 미리 찾을 때 씁니다. 의료영상 제품을 해외에 낼 때 개인정보 점검 참고용으로도 볼 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "trackersnailgrip/GitHub-Copilot-app": {
+  "description": "여러 저장소의 작업을 에이전트로 처리하는 Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot 에이전트를 실행하고 지켜보며 PR까지 마무리하는 데스크톱 앱이라고 소개합니다. 다만 이 저장소는 토픽이 무관한 키워드로 가득한 복제본 같아 보여, 공식 저장소인지 먼저 확인하는 편이 안전합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "MiniMax-AI/MiniMax-H3-Image": {
+  "description": "1600만 화소 이미지 생성·편집용 오픈 웨이트 모델",
+  "easy": "텍스트 설명으로 고해상도 이미지를 만들거나 고치는 MiniMax의 오픈 웨이트 모델이며, 프롬프트 작성용 스킬도 들어 있습니다. 포스터나 인포그래픽 같은 이미지를 AI로 만들 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "trackboatwrightplan/GitHub-Copilot-app": {
+  "description": "여러 저장소의 작업을 에이전트로 처리하는 Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot 에이전트를 실행하고 지켜보며 PR까지 마무리하는 데스크톱 앱이라고 소개합니다. 다만 이 저장소는 토픽이 무관한 키워드로 가득한 복제본 같아 보여, 공식 저장소인지 먼저 확인하는 편이 안전합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "toppatronweave/GitHub-Copilot-app": {
+  "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "TrapBladesmith/GitHub-Copilot-app": {
+  "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "TarantulaCorrect/GitHub-Copilot-app": {
+  "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "TurquoiseConsultant/GitHub-Copilot-app": {
+  "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "topconstableinlet67/GitHub-Copilot-app": {
+  "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Trapkrostride/GitHub-Copilot-app": {
+  "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
+  "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "op7418/guizang-game-skill": {
+  "description": "AI로 브라우저 3D 액션 게임을 만드는 Agent Skill",
+  "easy": "Claude Code나 Codex 같은 AI 코딩 도구에 설치해, 브라우저에서 바로 즐기는 3D 액션 게임을 처음부터 만들게 하는 스킬입니다. 요구사항 확인, 에셋 생성, 화면 검증을 거쳐 게임을 HTML 파일 하나로 묶어 주며, 체험용 데모 게임도 들어 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "kociden/sakurai-skill": {
+  "description": "사쿠라이 마사히로 영상 자막 기반 게임 제작 Agent Skill",
+  "easy": "유튜브 '桜井政博のゲーム作るには' 257편의 자막을 AI가 요약해, 게임 기획·조작감·난이도 같은 제작 원칙을 담은 Agent Skill입니다. 게임을 기획하거나 리뷰할 때, 또는 '손맛이 없다'는 평가를 고칠 때 Claude Code 등에서 불러 쓰며, 비공식 팬 제작물입니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "threerocks/article2media": {
+  "description": "글·영상을 샤오훙수 카드·롱이미지·숏폼으로 만드는 Skill",
+  "easy": "article2media는 글이나 영상 링크 하나를 샤오훙수 카드, 긴 이미지, 공중하오 레이아웃, AI 음성 숏폼 영상으로 바꿔 주는 Claude Code/Codex용 Skill 모음입니다. 한 콘텐츠를 여러 중국 플랫폼에 맞춰 올려야 할 때 쓰며, 결과물은 자동으로 검수됩니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "yucezerey/turkish-anti-ai-skill": {
+  "description": "터키어 글의 AI 티와 번역투를 고쳐 주는 Agent Skill",
+  "easy": "AI가 쓴 터키어 문장에서 어색한 번역투와 틀린 맞춤법(TDK 기준)을 찾아 자연스럽게 다듬어 주는 Agent Skill입니다. 터키어 문서나 콘텐츠를 AI로 만든 뒤 사람이 쓴 것처럼 고치고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "nishant-Tiwari24/cracked": {
+  "description": "기업별 모의면접·OA·이력서 평가를 돕는 취업 준비 Skill",
+  "easy": "cracked는 Claude Code, Codex 등을 면접관 겸 코치로 바꿔 주는 취업 준비용 Skill 모음입니다. 470개 이상 기업의 코딩 모의면접, 숨겨진 테스트가 있는 온라인 평가, 이력서 평가를 연습할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "bookleme/bookleme": {
+  "description": "책 한 권을 설치 가능한 Agent Skill로 변환하는 도구",
+  "easy": "BookLeme는 책의 핵심 지식과 작업 방식을 뽑아 AI 에이전트가 쓸 수 있는 Skill로 만들어 주는 도구입니다. 책 내용을 요약 노트로 두지 않고 질문 순서나 판단 기준까지 AI가 바로 활용하게 하고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "FreedomIntelligence/Awesome-AI4Med": {
+  "description": "의료 LLM·멀티모달·데이터셋·벤치마크 큐레이션 목록",
+  "easy": "의료 분야 AI 모델, 데이터셋, 벤치마크를 한곳에 정리해 둔 목록 저장소입니다. 의료 AI 연구 동향을 파악하거나 쓸 만한 모델과 자료를 찾을 때 참고합니다. 의료영상 관련 모델 목록도 있어 DICOM·PACS 개발팀이 AI 기능을 검토할 때 도움이 됩니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "315386775/DeepLearing-Interview-Awesome-2024": {
+  "description": "AIGC·CV·LLM 딥러닝 면접 문제와 답안 모음",
+  "easy": "대규모 언어모델, 컴퓨터 비전, 딥러닝 기초 등 AI 면접 단골 질문과 해설을 모아 둔 저장소입니다. AI 직군 면접을 준비하거나 관련 개념을 복습할 때 씁니다. 의료 분야 주제도 일부 포함되어 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Slicer/Slicer": {
+  "description": "의료영상 시각화·분석용 오픈소스 3D Slicer",
+  "easy": "3D Slicer는 CT, MRI 같은 의료영상을 3D로 보고 분석·처리하는 무료 오픈소스 프로그램입니다. 영상 확인, 분할(세그멘테이션), 연구용 영상 처리가 필요할 때 씁니다. C++ 기반 의료영상 소프트웨어라 DICOM·PACS·MFC/C++ 개발팀이 구조와 기능을 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "MrGiovanni/UNetPlusPlus": {
+  "description": "의료영상 분할용 UNet++ 공식 구현(Keras·PyTorch)",
+  "easy": "UNet++는 CT, MRI 같은 의료영상에서 장기나 병변 영역을 자동으로 나누는 딥러닝 모델의 공식 구현입니다. 의료영상 분할 모델을 연구하거나 기존 U-Net보다 나은 성능을 시도할 때 씁니다. DICOM·PACS 제품에 AI 분할 기능을 붙일 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "sfikas/medical-imaging-datasets": {
+  "description": "공개 의료영상 데이터셋 링크를 모아 둔 목록",
+  "easy": "MRI, CT, 유방촬영 등 여러 종류의 공개 의료영상 데이터셋 링크를 정리한 목록입니다. 의료영상 AI를 연구하거나 테스트용 영상이 필요할 때 참고합니다. DICOM 뷰어나 PACS 기능을 시험할 샘플 영상을 찾을 때도 유용합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "xinario/awesome-gan-for-medical-imaging": {
+  "description": "의료영상에 GAN을 적용한 논문과 자료 모음",
+  "easy": "GAN이라는 이미지 생성 AI를 의료영상에 적용한 논문을 분야별로 정리한 목록입니다. CT 노이즈 제거, 분할, 영상 합성 같은 연구 사례를 찾아볼 때 씁니다. 의료영상 AI 기능을 기획하는 팀이 기술 동향을 파악하기에 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "amirhossein-kz/Awesome-Diffusion-Models-in-Medical-Imaging": {
+  "description": "의료영상 분야 확산 모델 논문 모음",
+  "easy": "이미지를 생성하는 확산 모델(diffusion model)을 의료영상에 적용한 논문을 모아 둔 목록입니다. 영상 복원, 노이즈 제거, 분할 등 최신 연구를 살펴볼 때 사용합니다. 의료영상 소프트웨어에 AI 기능을 도입할 때 기술 동향을 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "black0017/MedicalZooPytorch": {
+  "description": "PyTorch 기반 3D 의료영상 분할 딥러닝 라이브러리",
+  "easy": "PyTorch로 만든 3D 의료영상 분할용 딥러닝 모델과 데이터 로더 모음입니다. 뇌 MRI 같은 영상에서 장기나 병변 영역을 자동으로 나누는 모델을 실험할 때 씁니다. DICOM 영상을 다루는 팀이 AI 분할 기능을 시험해 볼 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "nitrain/nitrain": {
+  "description": "의료영상용 AI 모델 학습을 쉽게 해주는 Python 라이브러리",
+  "easy": "의료영상을 불러와 증강하고 AI 모델을 학습시키는 과정을 단순하게 만든 Python 라이브러리입니다. torch, tensorflow, keras를 모두 지원하며, 의료영상 AI 모델을 빠르게 실험할 때 씁니다. 의료영상 개발팀이 AI 학습 파이프라인을 만들 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "ivmartel/dwv": {
+  "description": "설치 없이 웹에서 쓰는 오픈소스 DICOM 뷰어 라이브러리",
+  "easy": "자바스크립트만으로 브라우저에서 DICOM 영상을 열고 확대, 대비 조절, 주석 등을 할 수 있는 뷰어 라이브러리입니다. 별도 설치 없이 웹에서 의료영상을 보여주고 싶을 때 씁니다. PACS와 연동하는 웹 뷰어를 만들 때 참고하기 좋고, 진단용으로 인증된 제품은 아닙니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "google/medgemma-1.5-4b-it": {
+  "description": "Google의 의료 영상·텍스트 이해용 멀티모달 AI 모델",
+  "easy": "Google이 만든 Gemma 3 기반 모델로, 의료 영상과 글을 함께 보고 대화형으로 답합니다. 흉부 X-ray, 피부, 병리 영상 등을 해석하거나 의료 질의응답 기능을 시험할 때 씁니다. 영상 판독 보조 기능을 연구하는 팀이 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "gevaertlab/MANTA-27B": {
+  "description": "의료 의사결정·분류용 멀티모달 AI 모델",
+  "easy": "영상과 텍스트를 함께 다루며 의료 분류와 의사결정을 돕는 27B 규모의 AI 모델입니다. 방사선, 병리 데이터를 바탕으로 분류하거나 예측 신뢰도를 보정하는 연구에 씁니다. 설명이 거의 없어 사용 전 모델 문서와 라이선스를 확인해야 합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "Prior-Labs/tabpfn_3_5": {
+  "description": "표 형식 데이터를 분류하는 TabPFN 사전학습 모델",
+  "easy": "표(테이블) 형태의 데이터를 따로 오래 학습시키지 않고도 분류해 주는 사전학습 모델입니다. 화학, 금융, 의료 등 엑셀 같은 데이터를 빠르게 예측해 보고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "google/medgemma-4b-it": {
+  "description": "의료 영상·텍스트를 함께 이해하는 4B 규모 Gemma 3 모델",
+  "easy": "흉부 X-ray, 피부, 병리 같은 의료 이미지와 글을 함께 보고 질문에 답하는 Google의 소형 AI 모델입니다. 영상 판독 보조나 소견 초안 생성 같은 기능을 실험할 때 쓰며, DICOM 영상을 변환해 입력하면 PACS 연동 기능의 프로토타입에 활용해 볼 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "gevaertlab/MANTA-4B": {
+  "description": "영상·병리 등 다중 모달 의료 의사결정 분류 모델",
+  "easy": "의료 영상과 데이터를 함께 받아 분류하고 판단 확신도(보정)까지 다루는 4B 규모 모델입니다. 방사선·병리 이미지에서 진단 보조용 분류나 특징 추출이 필요할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "pavanmantha/mednli_laya": {
+  "description": "의료 문장 간 추론을 검증하는 NLI 텍스트 분류 모델",
+  "easy": "의료 문장이 다른 문장의 내용과 맞는지, 모순인지, 무관한지를 판별하는 영어 모델입니다. 의료 주장이나 소견 문장의 사실 여부를 자동으로 검증하고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "ErtasAI/MedErtas-v0.1-27B-LS": {
+  "description": "임상 용도의 27B 의료 텍스트 생성 LLM(양자화 버전)",
+  "easy": "의료·임상 질문에 답하는 27B 규모 언어 모델로, NVFP4 양자화와 vLLM 서빙을 지원해 비교적 빠르게 돌릴 수 있습니다. 임상 문서 요약이나 의료 Q&A 시스템을 자체 서버에 구축할 때 쓸 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "google/medgemma-27b-text-it": {
+  "description": "의료 텍스트 추론에 특화된 27B Gemma 3 모델",
+  "easy": "이미지 없이 글만 다루는 의료 전용 대형 언어 모델로, 임상 추론과 질의응답에 맞춰져 있습니다. 판독문 요약이나 의료 문서 분석 기능을 만들 때 쓰며, PACS의 리포트 텍스트 처리에도 응용할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "google/medgemma-27b-it": {
+  "description": "의료 영상·텍스트를 다루는 27B 멀티모달 Gemma 3 모델",
+  "easy": "X-ray, 병리, 안저, 피부 이미지와 글을 함께 이해하는 Google의 대형 의료 AI 모델입니다. 영상 판독문 생성이나 영상 기반 질의응답이 필요할 때 쓰며, DICOM에서 추출한 이미지를 넣어 PACS 보조 기능을 시험해 볼 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-16"
+ },
+ "google/medsiglip-448": {
+  "description": "의료 이미지용 SigLIP 제로샷 분류·임베딩 모델",
+  "easy": "의료 이미지와 문장을 같은 공간에 놓고 비교해, 따로 학습하지 않고도 이미지를 분류하거나 유사 영상을 찾게 해 주는 모델입니다. 흉부 X-ray나 병리 이미지 검색, 분류 기능을 만들 때 쓰며, PACS 영상 검색 기능의 기반으로 고려해 볼 만합니다.",
+  "exclude": false,
+  "at": "2026-11-16"
  }
 }
