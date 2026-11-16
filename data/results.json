@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-16T06:42:12+00:00",
+ "updatedAt": "2026-11-16T07:50:24+00:00",
  "date": "2026-11-16",
  "historyDays": 1,
  "hasD1": false,
@@ -35,7 +35,7 @@
    {
     "repo": "dabingfy-dot/solo-to-team-skills",
     "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
-    "stars": 936,
+    "stars": 940,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -43,7 +43,7 @@
     "accel": null,
     "spark": [],
     "forks": 104,
-    "issues": 22,
+    "issues": 23,
     "pushedAt": "2026-11-15T09:53:24Z",
     "createdAt": "2026-11-07T01:36:28Z",
     "stale": false,
@@ -53,12 +53,13 @@
     ],
     "lang": "HTML",
     "description": "한 사람이 여러 AI 에이전트를 팀처럼 운영하는 협업 툴킷",
-    "easy": "AI 에이전트에게 역할(통솔, 제작, 검토)을 나눠 주고, 결과물을 다른 에이전트가 검토한 뒤 기록까지 남기게 돕는 도구 모음입니다. 혼자서 여러 AI를 팀처럼 굴려 일을 맡기고 확인할 때 씁니다."
+    "easy": "AI 에이전트에게 역할(통솔, 제작, 검토)을 나눠 주고, 결과물을 다른 에이전트가 검토한 뒤 기록까지 남기게 돕는 도구 모음입니다. 혼자서 여러 AI를 팀처럼 굴려 일을 맡기고 확인할 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "kubai087/kubai-icons",
     "url": "https://github.com/kubai087/kubai-icons",
-    "stars": 883,
+    "stars": 884,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -76,19 +77,20 @@
     ],
     "lang": "JavaScript",
     "description": "일관된 스타일의 애니메이션 아이콘을 그려 주는 에이전트 스킬",
-    "easy": "Claude Code나 Codex 같은 코딩 에이전트가 같은 스타일의 움직이는 아이콘을 만들게 하는 스킬이며, MIT 라이선스 아이콘 2,800여 개도 함께 제공합니다. React, Vue, SVG 화면에 아이콘이 필요할 때 쓰면 좋습니다. MFC 데스크톱 뷰어보다는 웹 UI 쪽에 어울립니다."
+    "easy": "Claude Code나 Codex 같은 코딩 에이전트가 같은 스타일의 움직이는 아이콘을 만들게 하는 스킬이며, MIT 라이선스 아이콘 2,800여 개도 함께 제공합니다. React, Vue, SVG 화면에 아이콘이 필요할 때 쓰면 좋습니다. MFC 데스크톱 뷰어보다는 웹 UI 쪽에 어울립니다.",
+    "isNew": false
    },
    {
     "repo": "Dodaios/ste80-humanizer",
     "url": "https://github.com/Dodaios/ste80-humanizer",
-    "stars": 703,
+    "stars": 707,
     "d1": null,
     "d7": null,
     "d30": null,
     "pct7": null,
     "accel": null,
     "spark": [],
-    "forks": 48,
+    "forks": 49,
     "issues": 0,
     "pushedAt": "2026-11-14T14:20:14Z",
     "createdAt": "2026-11-09T17:18:59Z",
@@ -99,19 +101,20 @@
     ],
     "lang": "Python",
     "description": "AI 티 나는 문장을 쉬운 기술 영어로 다듬는 스킬",
-    "easy": "AI가 쓴 글에서 흔한 AI 말투를 지우고, 항공기 정비 매뉴얼처럼 단순한 영어(ASD-STE100)에 가깝게 고쳐 쓰는 에이전트 스킬입니다. 영문 문서나 README를 더 또렷하고 사람이 쓴 것처럼 다듬고 싶을 때 씁니다."
+    "easy": "AI가 쓴 글에서 흔한 AI 말투를 지우고, 항공기 정비 매뉴얼처럼 단순한 영어(ASD-STE100)에 가깝게 고쳐 쓰는 에이전트 스킬입니다. 영문 문서나 README를 더 또렷하고 사람이 쓴 것처럼 다듬고 싶을 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "Moh4696/cinematic-skill",
     "url": "https://github.com/Moh4696/cinematic-skill",
-    "stars": 533,
+    "stars": 537,
     "d1": null,
     "d7": null,
     "d30": null,
     "pct7": null,
     "accel": null,
     "spark": [],
-    "forks": 65,
+    "forks": 69,
     "issues": 1,
     "pushedAt": "2026-11-09T15:35:12Z",
     "createdAt": "2026-11-09T07:58:11Z",
@@ -122,7 +125,8 @@
     ],
     "lang": "Python",
     "description": "코드만으로 내레이션 시네마틱 영상을 만드는 에이전트 스킬",
-    "easy": "코딩 에이전트에게 주제를 말하면 대본, 음성, 공개 사진을 모아 Python(Skia)으로 설명 영상을 그려 주는 스킬입니다. 제품 소개나 다큐 형식의 짧은 영상을 코드로 만들고 싶을 때 씁니다."
+    "easy": "코딩 에이전트에게 주제를 말하면 대본, 음성, 공개 사진을 모아 Python(Skia)으로 설명 영상을 그려 주는 스킬입니다. 제품 소개나 다큐 형식의 짧은 영상을 코드로 만들고 싶을 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "mhfed/vn-law-check",
@@ -145,12 +149,13 @@
     ],
     "lang": "Shell",
     "description": "베트남 법규 기준으로 웹사이트·앱을 점검하는 에이전트 스킬",
-    "easy": "개인정보보호법 등 베트남 법에 맞는지 AI 에이전트가 웹사이트나 앱을 검토하고 우선순위별 보고서를 만들어 줍니다. 베트남 시장에 서비스를 내놓기 전 법적 위험을 미리 찾을 때 씁니다. 의료영상 제품을 해외에 낼 때 개인정보 점검 참고용으로도 볼 수 있습니다."
+    "easy": "개인정보보호법 등 베트남 법에 맞는지 AI 에이전트가 웹사이트나 앱을 검토하고 우선순위별 보고서를 만들어 줍니다. 베트남 시장에 서비스를 내놓기 전 법적 위험을 미리 찾을 때 씁니다. 의료영상 제품을 해외에 낼 때 개인정보 점검 참고용으로도 볼 수 있습니다.",
+    "isNew": false
    },
    {
     "repo": "MiniMax-AI/MiniMax-H3-Image",
     "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
-    "stars": 384,
+    "stars": 386,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -168,12 +173,13 @@
     ],
     "lang": "Python",
     "description": "1600만 화소 이미지 생성·편집용 오픈 웨이트 모델",
-    "easy": "텍스트 설명으로 고해상도 이미지를 만들거나 고치는 MiniMax의 오픈 웨이트 모델이며, 프롬프트 작성용 스킬도 들어 있습니다. 포스터나 인포그래픽 같은 이미지를 AI로 만들 때 씁니다."
+    "easy": "텍스트 설명으로 고해상도 이미지를 만들거나 고치는 MiniMax의 오픈 웨이트 모델이며, 프롬프트 작성용 스킬도 들어 있습니다. 포스터나 인포그래픽 같은 이미지를 AI로 만들 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "op7418/guizang-game-skill",
     "url": "https://github.com/op7418/guizang-game-skill",
-    "stars": 365,
+    "stars": 366,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -191,12 +197,13 @@
     ],
     "lang": "JavaScript",
     "description": "AI로 브라우저 3D 액션 게임을 만드는 Agent Skill",
-    "easy": "Claude Code나 Codex 같은 AI 코딩 도구에 설치해, 브라우저에서 바로 즐기는 3D 액션 게임을 처음부터 만들게 하는 스킬입니다. 요구사항 확인, 에셋 생성, 화면 검증을 거쳐 게임을 HTML 파일 하나로 묶어 주며, 체험용 데모 게임도 들어 있습니다."
+    "easy": "Claude Code나 Codex 같은 AI 코딩 도구에 설치해, 브라우저에서 바로 즐기는 3D 액션 게임을 처음부터 만들게 하는 스킬입니다. 요구사항 확인, 에셋 생성, 화면 검증을 거쳐 게임을 HTML 파일 하나로 묶어 주며, 체험용 데모 게임도 들어 있습니다.",
+    "isNew": false
    },
    {
     "repo": "kociden/sakurai-skill",
     "url": "https://github.com/kociden/sakurai-skill",
-    "stars": 362,
+    "stars": 364,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -214,19 +221,20 @@
     ],
     "lang": "Python",
     "description": "사쿠라이 마사히로 영상 자막 기반 게임 제작 Agent Skill",
-    "easy": "유튜브 '桜井政博のゲーム作るには' 257편의 자막을 AI가 요약해, 게임 기획·조작감·난이도 같은 제작 원칙을 담은 Agent Skill입니다. 게임을 기획하거나 리뷰할 때, 또는 '손맛이 없다'는 평가를 고칠 때 Claude Code 등에서 불러 쓰며, 비공식 팬 제작물입니다."
+    "easy": "유튜브 '桜井政博のゲーム作るには' 257편의 자막을 AI가 요약해, 게임 기획·조작감·난이도 같은 제작 원칙을 담은 Agent Skill입니다. 게임을 기획하거나 리뷰할 때, 또는 '손맛이 없다'는 평가를 고칠 때 Claude Code 등에서 불러 쓰며, 비공식 팬 제작물입니다.",
+    "isNew": false
    },
    {
     "repo": "threerocks/article2media",
     "url": "https://github.com/threerocks/article2media",
-    "stars": 354,
+    "stars": 359,
     "d1": null,
     "d7": null,
     "d30": null,
     "pct7": null,
     "accel": null,
     "spark": [],
-    "forks": 57,
+    "forks": 58,
     "issues": 2,
     "pushedAt": "2026-11-11T17:05:39Z",
     "createdAt": "2026-11-08T08:07:28Z",
@@ -237,12 +245,13 @@
     ],
     "lang": "JavaScript",
     "description": "글·영상을 샤오훙수 카드·롱이미지·숏폼으로 만드는 Skill",
-    "easy": "article2media는 글이나 영상 링크 하나를 샤오훙수 카드, 긴 이미지, 공중하오 레이아웃, AI 음성 숏폼 영상으로 바꿔 주는 Claude Code/Codex용 Skill 모음입니다. 한 콘텐츠를 여러 중국 플랫폼에 맞춰 올려야 할 때 쓰며, 결과물은 자동으로 검수됩니다."
+    "easy": "article2media는 글이나 영상 링크 하나를 샤오훙수 카드, 긴 이미지, 공중하오 레이아웃, AI 음성 숏폼 영상으로 바꿔 주는 Claude Code/Codex용 Skill 모음입니다. 한 콘텐츠를 여러 중국 플랫폼에 맞춰 올려야 할 때 쓰며, 결과물은 자동으로 검수됩니다.",
+    "isNew": false
    },
    {
     "repo": "yucezerey/turkish-anti-ai-skill",
     "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
-    "stars": 324,
+    "stars": 325,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -260,12 +269,13 @@
     ],
     "lang": "Python",
     "description": "터키어 글의 AI 티와 번역투를 고쳐 주는 Agent Skill",
-    "easy": "AI가 쓴 터키어 문장에서 어색한 번역투와 틀린 맞춤법(TDK 기준)을 찾아 자연스럽게 다듬어 주는 Agent Skill입니다. 터키어 문서나 콘텐츠를 AI로 만든 뒤 사람이 쓴 것처럼 고치고 싶을 때 씁니다."
+    "easy": "AI가 쓴 터키어 문장에서 어색한 번역투와 틀린 맞춤법(TDK 기준)을 찾아 자연스럽게 다듬어 주는 Agent Skill입니다. 터키어 문서나 콘텐츠를 AI로 만든 뒤 사람이 쓴 것처럼 고치고 싶을 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "nishant-Tiwari24/cracked",
     "url": "https://github.com/nishant-Tiwari24/cracked",
-    "stars": 314,
+    "stars": 315,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -283,7 +293,8 @@
     ],
     "lang": "TypeScript",
     "description": "기업별 모의면접·OA·이력서 평가를 돕는 취업 준비 Skill",
-    "easy": "cracked는 Claude Code, Codex 등을 면접관 겸 코치로 바꿔 주는 취업 준비용 Skill 모음입니다. 470개 이상 기업의 코딩 모의면접, 숨겨진 테스트가 있는 온라인 평가, 이력서 평가를 연습할 때 씁니다."
+    "easy": "cracked는 Claude Code, Codex 등을 면접관 겸 코치로 바꿔 주는 취업 준비용 Skill 모음입니다. 470개 이상 기업의 코딩 모의면접, 숨겨진 테스트가 있는 온라인 평가, 이력서 평가를 연습할 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "bookleme/bookleme",
@@ -306,7 +317,8 @@
     ],
     "lang": "Python",
     "description": "책 한 권을 설치 가능한 Agent Skill로 변환하는 도구",
-    "easy": "BookLeme는 책의 핵심 지식과 작업 방식을 뽑아 AI 에이전트가 쓸 수 있는 Skill로 만들어 주는 도구입니다. 책 내용을 요약 노트로 두지 않고 질문 순서나 판단 기준까지 AI가 바로 활용하게 하고 싶을 때 씁니다."
+    "easy": "BookLeme는 책의 핵심 지식과 작업 방식을 뽑아 AI 에이전트가 쓸 수 있는 Skill로 만들어 주는 도구입니다. 책 내용을 요약 노트로 두지 않고 질문 순서나 판단 기준까지 AI가 바로 활용하게 하고 싶을 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "smokeeaasd/flawless-ui-ux",
@@ -329,12 +341,13 @@
     ],
     "lang": "JavaScript",
     "description": "개성 있고 쓰기 편한 UI를 만들도록 돕는 코딩 에이전트용 UI/UX 스킬",
-    "easy": "코딩 에이전트가 제품의 사용자와 콘텐츠에 맞는 인터페이스를 설계하고 다듬도록 돕는 스킬입니다. AI가 만든 듯한 밋밋한 화면을 피하고 접근성까지 챙기고 싶을 때 씁니다."
+    "easy": "코딩 에이전트가 제품의 사용자와 콘텐츠에 맞는 인터페이스를 설계하고 다듬도록 돕는 스킬입니다. AI가 만든 듯한 밋밋한 화면을 피하고 접근성까지 챙기고 싶을 때 씁니다.",
+    "isNew": false
    },
    {
     "repo": "owoevan-dev/music-skill",
     "url": "https://github.com/owoevan-dev/music-skill",
-    "stars": 232,
+    "stars": 233,
     "d1": null,
     "d7": null,
     "d30": null,
@@ -352,7 +365,8 @@
     ],
     "lang": "Python",
     "description": "에이전트가 직접 작곡해 연주·믹싱까지 하는 음악 제작 스킬",
-    "easy": "AI 에이전트가 음 하나하나를 직접 써서 무료 샘플 악기로 연주하고 믹싱·마스터링까지 해 주는 스킬입니다. MIDI, 파트별 stem, 게임 배경음 루프가 필요할 때 쓰며, 오디오 생성 모델은 쓰지 않습니다."
+    "easy": "AI 에이전트가 음 하나하나를 직접 써서 무료 샘플 악기로 연주하고 믹싱·마스터링까지 해 주는 스킬입니다. MIDI, 파트별 stem, 게임 배경음 루프가 필요할 때 쓰며, 오디오 생성 모델은 쓰지 않습니다.",
+    "isNew": false
    },
    {
     "repo": "codepawl/creator-generalist",
@@ -366,7 +380,7 @@
     "spark": [],
     "forks": 16,
     "issues": 1,
-    "pushedAt": "2026-11-14T19:15:10Z",
+    "pushedAt": "2026-11-16T07:31:45Z",
     "createdAt": "2026-11-06T18:29:48Z",
     "stale": false,
     "suspect": false,
@@ -375,7 +389,8 @@
     ],
     "lang": "Python",
     "description": "2D·3D 영상과 숏폼 제작을 돕는 에이전트 스킬 모음",
-    "easy": "Blender, Three.js, Remotion 등을 활용해 에이전트가 2D·3D 영상과 애니메이션을 만들어 주는 스킬 묶음입니다. YouTube, TikTok 같은 곳에 올릴 숏폼 콘텐츠를 만들 때 쓰며, 만들기 전에 미리보기로 확인할 수 있습니다."
+    "easy": "Blender, Three.js, Remotion 등을 활용해 에이전트가 2D·3D 영상과 애니메이션을 만들어 주는 스킬 묶음입니다. YouTube, TikTok 같은 곳에 올릴 숏폼 콘텐츠를 만들 때 쓰며, 만들기 전에 미리보기로 확인할 수 있습니다.",
+    "isNew": false
    }
   ],
   "medical": [
@@ -611,7 +626,600 @@
     "description": "Python으로 DICOM 파일을 읽고 고치고 쓰는 라이브러리",
     "easy": "DICOM 파일 안의 환자 정보나 영상 데이터를 Python 코드로 다룰 수 있게 해 줍니다. 테스트용 DICOM 파일을 만들거나 검사할 때 편합니다."
    }
+  ],
+  "total": [
+   {
+    "repo": "morluto/rea",
+    "url": "https://github.com/morluto/rea",
+    "stars": 462639,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 113277,
+    "issues": 1506,
+    "pushedAt": "2026-11-16T06:48:40Z",
+    "createdAt": "2026-04-14T00:51:32Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "TypeScript",
+    "description": "에이전트로 앱 동작부터 실행 파일 내부까지 분석하는 리버스 엔지니어링 도구",
+    "easy": "AI 에이전트가 앱이나 실행 파일을 내 컴퓨터에서 분석해 내부 동작을 알아내게 하는 도구입니다. 다른 프로그램의 기능이 어떻게 돌아가는지 조사할 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "stars": 195536,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 22979,
+    "issues": 1547,
+    "pushedAt": "2026-11-14T21:52:49Z",
+    "createdAt": "2025-09-22T15:53:31Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "Anthropic이 공개한 Agent Skills 저장소",
+    "easy": "Claude가 특정 작업을 잘하도록 지침과 파일을 묶어 둔 '스킬'의 공식 예시 모음입니다. 우리 팀용 스킬을 만들 때 기본 형식을 참고하기 좋습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "stars": 191647,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 10737,
+    "issues": 245,
+    "pushedAt": "2026-10-29T11:59:31Z",
+    "createdAt": "2026-06-12T00:52:37Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "AI 에이전트가 꼭 필요한 코드만 쓰도록 이끄는 스킬",
+    "easy": "AI가 코드를 너무 많이 쓰는 것을 막는 스킬입니다. 결과물을 짧고 단순하게 유지하고 싶을 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "stars": 118068,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 12349,
+    "issues": 130,
+    "pushedAt": "2026-11-14T04:33:56Z",
+    "createdAt": "2026-02-15T20:20:26Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "AI 코딩 에이전트용 실무 엔지니어링 스킬 모음",
+    "easy": "코드 리뷰, 테스트, 성능 점검 같은 개발 작업을 AI 에이전트가 제대로 하도록 돕는 지침 모음입니다. 팀 스킬을 만들 때 참고 예시로 좋습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "Leonxlnx/taste-skill",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "stars": 116417,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 7804,
+    "issues": 10,
+    "pushedAt": "2026-11-08T21:51:50Z",
+    "createdAt": "2026-02-19T21:44:05Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "코딩 에이전트에 디자인 감각을 더해 주는 스킬",
+    "easy": "AI가 만든 티가 나는 뻔한 화면 대신 개성 있는 화면을 만들도록 돕는 스킬입니다. 웹사이트나 앱 화면을 만들거나 기존 페이지를 브라우저에서 점검해 고칠 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "stars": 114196,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 18936,
+    "issues": 6770,
+    "pushedAt": "2026-11-16T07:37:34Z",
+    "createdAt": "2026-03-02T15:01:51Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "TypeScript",
+    "description": "여러 AI 에이전트를 조직처럼 묶어 관리하는 오픈소스 앱",
+    "easy": "여러 AI 에이전트의 목표, 업무, 예산, 승인을 한 화면에서 관리하는 앱입니다. 에이전트 여러 개를 동시에 돌리며 진행 상황과 비용을 챙길 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "stars": 110941,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 6635,
+    "issues": 47,
+    "pushedAt": "2026-11-16T07:22:59Z",
+    "createdAt": "2025-11-16T01:52:04Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Rust",
+    "description": "AI 코딩 도구의 디자인 실력을 높여 주는 디자인 규칙 모음입니다.",
+    "easy": "AI에게 화면을 만들게 할 때 함께 주는 디자인 가이드입니다. 결과물의 완성도를 일정하게 맞추고 싶을 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "nexu-io/open-design",
+    "url": "https://github.com/nexu-io/open-design",
+    "stars": 107813,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 12252,
+    "issues": 1408,
+    "pushedAt": "2026-11-16T07:12:53Z",
+    "createdAt": "2026-04-28T04:25:20Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "TypeScript",
+    "description": "코딩 에이전트로 디자인·프로토타입을 만드는 로컬 데스크톱 앱",
+    "easy": "AI 코딩 에이전트에게 화면 디자인과 시제품을 만들게 하고 결과물을 내보내는 앱입니다. 내 컴퓨터에서 돌아가 디자인 파일을 밖으로 보내지 않아도 됩니다.",
+    "isNew": false
+   },
+   {
+    "repo": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify",
+    "stars": 96942,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 6622,
+    "issues": 363,
+    "pushedAt": "2026-11-16T06:22:48Z",
+    "createdAt": "2026-04-15T05:27:37Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "아이디어와 코드를 대화형 다이어그램으로 바꾸는 에이전트 스킬",
+    "easy": "아이디어, 계획, 코드 구조를 눌러 볼 수 있는 그림으로 바꿔 주는 스킬입니다. 복잡한 구조를 팀원에게 설명할 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv",
+    "stars": 91590,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 57114,
+    "issues": 2937,
+    "pushedAt": "2026-11-16T04:05:26Z",
+    "createdAt": "2012-07-19T09:40:17Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "image-processing"
+    ],
+    "lang": "C++",
+    "description": "오픈소스 컴퓨터 비전 라이브러리",
+    "easy": "이미지와 영상을 읽고, 거르고, 분석하는 기능을 모아 둔 가장 널리 쓰이는 라이브러리입니다. C++로 만들어져 MFC 프로그램에서도 바로 쓸 수 있습니다.",
+    "isNew": false
+   }
+  ],
+  "tagTop": [
+   {
+    "repo": "morluto/rea",
+    "url": "https://github.com/morluto/rea",
+    "stars": 462639,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 113277,
+    "issues": 1506,
+    "pushedAt": "2026-11-16T06:48:40Z",
+    "createdAt": "2026-04-14T00:51:32Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "TypeScript",
+    "description": "에이전트로 앱 동작부터 실행 파일 내부까지 분석하는 리버스 엔지니어링 도구",
+    "easy": "AI 에이전트가 앱이나 실행 파일을 내 컴퓨터에서 분석해 내부 동작을 알아내게 하는 도구입니다. 다른 프로그램의 기능이 어떻게 돌아가는지 조사할 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "stars": 195536,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 22979,
+    "issues": 1547,
+    "pushedAt": "2026-11-14T21:52:49Z",
+    "createdAt": "2025-09-22T15:53:31Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "Anthropic이 공개한 Agent Skills 저장소",
+    "easy": "Claude가 특정 작업을 잘하도록 지침과 파일을 묶어 둔 '스킬'의 공식 예시 모음입니다. 우리 팀용 스킬을 만들 때 기본 형식을 참고하기 좋습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "DietrichGebert/ponytail",
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "stars": 191647,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 10737,
+    "issues": 245,
+    "pushedAt": "2026-10-29T11:59:31Z",
+    "createdAt": "2026-06-12T00:52:37Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "AI 에이전트가 꼭 필요한 코드만 쓰도록 이끄는 스킬",
+    "easy": "AI가 코드를 너무 많이 쓰는 것을 막는 스킬입니다. 결과물을 짧고 단순하게 유지하고 싶을 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv",
+    "stars": 91590,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 57114,
+    "issues": 2937,
+    "pushedAt": "2026-11-16T04:05:26Z",
+    "createdAt": "2012-07-19T09:40:17Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "image-processing"
+    ],
+    "lang": "C++",
+    "description": "오픈소스 컴퓨터 비전 라이브러리",
+    "easy": "이미지와 영상을 읽고, 거르고, 분석하는 기능을 모아 둔 가장 널리 쓰이는 라이브러리입니다. C++로 만들어져 MFC 프로그램에서도 바로 쓸 수 있습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "roboflow/supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "stars": 51637,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 4959,
+    "issues": 105,
+    "pushedAt": "2026-11-16T00:04:45Z",
+    "createdAt": "2022-11-28T14:08:44Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "image-processing"
+    ],
+    "lang": "Python",
+    "description": "재사용할 수 있는 Python 컴퓨터 비전 도구 모음",
+    "easy": "물체 인식 결과를 화면에 그리거나 세는 등 영상 분석에서 반복되는 작업을 쉽게 해 주는 Python 도구입니다. 비전 AI 결과를 시각화할 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "ocrmypdf/OCRmyPDF",
+    "url": "https://github.com/ocrmypdf/OCRmyPDF",
+    "stars": 35330,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 2458,
+    "issues": 66,
+    "pushedAt": "2026-11-16T01:20:02Z",
+    "createdAt": "2013-12-20T08:26:28Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "image-processing"
+    ],
+    "lang": "Python",
+    "description": "스캔한 PDF에 검색 가능한 OCR 글자층을 넣는 도구",
+    "easy": "종이를 스캔한 PDF에서 글자를 인식해 검색과 복사가 되게 바꿔 줍니다. 스캔 문서를 정리할 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "kmario23/deep-learning-drizzle",
+    "url": "https://github.com/kmario23/deep-learning-drizzle",
+    "stars": 12987,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 2976,
+    "issues": 5,
+    "pushedAt": "2026-08-22T15:46:06Z",
+    "createdAt": "2018-11-26T01:17:36Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "medical-imaging"
+    ],
+    "lang": "HTML",
+    "description": "딥러닝·컴퓨터 비전·NLP 강의 모음",
+    "easy": "대학과 연구 기관의 딥러닝 관련 공개 강의를 주제별로 모은 목록입니다. 의료영상 AI를 공부하기 시작할 때 강의를 찾는 데 좋습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "OHIF/Viewers",
+    "url": "https://github.com/OHIF/Viewers",
+    "stars": 4411,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 4383,
+    "issues": 588,
+    "pushedAt": "2026-11-13T20:02:07Z",
+    "createdAt": "2015-10-13T08:57:37Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "dicom",
+     "medical-imaging"
+    ],
+    "lang": "TypeScript",
+    "description": "설치 없이 웹에서 여는 DICOM 뷰어",
+    "easy": "CT·MRI 같은 의료영상을 웹 브라우저에서 바로 볼 수 있게 해 주는 뷰어입니다. 병원 PACS와 연결해 쓰는 경우가 많아 의료영상 뷰어 구조를 참고하기 좋습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "linhandev/dataset",
+    "url": "https://github.com/linhandev/dataset",
+    "stars": 3641,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 426,
+    "issues": 47,
+    "pushedAt": "2024-08-15T08:14:12Z",
+    "createdAt": "2020-12-04T09:15:10Z",
+    "stale": true,
+    "suspect": false,
+    "tags": [
+     "medical-imaging"
+    ],
+    "lang": null,
+    "description": "의료영상 데이터셋 목록",
+    "easy": "공개된 의료영상 데이터셋을 부위와 종류별로 정리한 목록입니다. 의료영상 AI를 학습시키거나 시험할 데이터를 찾을 때 씁니다.",
+    "isNew": false
+   },
+   {
+    "repo": "pydicom/pydicom",
+    "url": "https://github.com/pydicom/pydicom",
+    "stars": 2236,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 575,
+    "issues": 58,
+    "pushedAt": "2026-11-15T23:24:44Z",
+    "createdAt": "2013-10-31T02:58:52Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "dicom"
+    ],
+    "lang": "Python",
+    "description": "Python으로 DICOM 파일을 읽고 고치고 쓰는 라이브러리",
+    "easy": "DICOM 파일 안의 환자 정보나 영상 데이터를 Python 코드로 다룰 수 있게 해 줍니다. 테스트용 DICOM 파일을 만들거나 검사할 때 편합니다.",
+    "isNew": false
+   },
+   {
+    "repo": "cornerstonejs/cornerstone",
+    "url": "https://github.com/cornerstonejs/cornerstone",
+    "stars": 2109,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 589,
+    "issues": 164,
+    "pushedAt": "2024-03-07T09:58:47Z",
+    "createdAt": "2014-03-18T00:25:35Z",
+    "stale": true,
+    "suspect": false,
+    "tags": [
+     "dicom",
+     "medical-imaging"
+    ],
+    "lang": "JavaScript",
+    "description": "웹 의료영상 표시 라이브러리 (지원 종료, Cornerstone3D로 이전)",
+    "easy": "웹에서 의료영상을 보여 주던 JavaScript 라이브러리입니다. 지금은 지원이 끝났으니 새로 쓸 때는 후속작인 Cornerstone3D를 봐야 합니다.",
+    "isNew": false
+   },
+   {
+    "repo": "suyashkumar/dicom",
+    "url": "https://github.com/suyashkumar/dicom",
+    "stars": 1099,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 172,
+    "issues": 140,
+    "pushedAt": "2026-06-21T03:39:58Z",
+    "createdAt": "2018-10-17T15:58:48Z",
+    "stale": true,
+    "suspect": false,
+    "tags": [
+     "dicom",
+     "medical-imaging",
+     "pacs"
+    ],
+    "lang": "Go",
+    "description": "Go로 만든 고성능 DICOM 파서",
+    "easy": "DICOM 파일을 빠르게 읽어 내는 Go 언어 라이브러리입니다. 대량의 의료영상 파일을 서버에서 처리할 때 참고할 만합니다.",
+    "isNew": false
+   },
+   {
+    "repo": "dicoogle/dicoogle",
+    "url": "https://github.com/dicoogle/dicoogle",
+    "stars": 537,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 148,
+    "issues": 63,
+    "pushedAt": "2026-10-29T16:45:55Z",
+    "createdAt": "2014-12-16T13:39:27Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "dicom",
+     "medical-imaging",
+     "pacs"
+    ],
+    "lang": "Java",
+    "description": "오픈소스 PACS",
+    "easy": "병원에서 의료영상을 저장하고 찾아 주는 PACS 서버를 오픈소스로 만든 것입니다. PACS 연동 기능을 시험할 서버가 필요할 때 쓸 수 있습니다.",
+    "isNew": false
+   },
+   {
+    "repo": "open-dicom/awesome-dicom",
+    "url": "https://github.com/open-dicom/awesome-dicom",
+    "stars": 415,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 52,
+    "issues": 1,
+    "pushedAt": "2026-11-11T13:17:16Z",
+    "createdAt": "2023-03-17T18:46:25Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "dicom",
+     "medical-imaging",
+     "pacs"
+    ],
+    "lang": null,
+    "description": "DICOM 라이브러리·뷰어·PACS 서버 등을 모은 큐레이션 목록",
+    "easy": "의료영상 표준인 DICOM과 관련된 오픈소스 라이브러리, 뷰어, PACS 서버, 변환·익명화 도구, 샘플 데이터를 모아 둔 목록입니다. 의료영상·PACS 개발팀이 참고할 도구를 찾거나, C/C++ 라이브러리와 테스트 파일을 확인할 때 특히 유용합니다.",
+    "isNew": false
+   }
   ]
+ },
+ "prevLists": {
+  "total": [],
+  "tagTop": [],
+  "newborn": []
  },
  "hf": {
   "source": "Hugging Face (medical 태그, 트렌딩 순)",
