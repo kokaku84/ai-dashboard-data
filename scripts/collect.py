@@ -447,7 +447,18 @@ def main():
             "newborn": top([r for r in live if ok(r)], "stars", n, lambda r: created_after(r, young_cut)),
             "medical": top([r for r in live if ok(r)], "_medgain", MED_SIZE + extra,
                            lambda r: bool(set(r["topics"]) & medical)),
+            # 누적 랭킹: 추적 태그 저장소 전체를 정확한 스타 순으로 상위 10개
+            "total": top([r for r in live if ok(r)], "stars", 10 + extra, lambda r: bool(r["_tags"])),
+            "tagTop": tag_top([r for r in live if ok(r)], extra),
         }
+
+    def tag_top(pool, extra):
+        # 태그 Top 20: 태그마다 스타 상위 3개를 모아 합치고 스타 순으로 최대 20개
+        picked = {}
+        for t in tags:
+            for r in top(pool, "stars", 3, lambda r, t=t: t in r["_tags"]):
+                picked[r["repo"]] = r
+        return sorted(picked.values(), key=lambda r: r["stars"], reverse=True)[:20 + extra]
 
     # 의료영상 레이더: 30일 증가, 기록이 모자라면 7일·1일 증가, 기록이 하나도 없으면 전체 스타 순
     med_window = next((k for k, n in (("d30", 30), ("d7", 7), ("d1", 1))
@@ -482,6 +493,15 @@ def main():
         hf_out.append({**{k: h[k] for k in ("repo", "url", "likes", "downloads", "trending", "task", "createdAt")},
                        "description": m.get("description", ""), "easy": m.get("easy", "")})
 
+    # NEW 표시: 어제 결과의 같은 목록에 없던 저장소 (어제 결과가 없으면 표시하지 않음)
+    prev = load_json(data_dir / "results.json", {})
+    prev_lists = prev.get("lists", {}) if prev.get("date") != today.isoformat() else prev.get("prevLists", {})
+    out_lists = {k: [out(r) for r in v] for k, v in lists.items()}
+    for k in ("total", "tagTop", "newborn"):
+        before = {x["repo"] for x in prev_lists.get(k, [])}
+        for x in out_lists[k]:
+            x["isNew"] = bool(before) and x["repo"] not in before
+
     days = len(history) + 1
     results = {
         "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
@@ -497,7 +517,9 @@ def main():
         "medicalTags": sorted(medical),
         "source": "GitHub 검색 API (정확한 스타 수, 매일 수집)",
         "dataRepo": f"https://github.com/{os.environ['GITHUB_REPOSITORY']}" if os.environ.get("GITHUB_REPOSITORY") else "",
-        "lists": {k: [out(r) for r in v] for k, v in lists.items()},
+        "lists": out_lists,
+        # 같은 날 다시 실행해도 NEW 기준이 '어제 목록'으로 유지되도록 기준 목록을 함께 보관
+        "prevLists": {k: [{"repo": x["repo"]} for x in prev_lists.get(k, [])] for k in ("total", "tagTop", "newborn")},
         "hf": {"source": "Hugging Face (medical 태그, 트렌딩 순)",
                "sourceUrl": "https://huggingface.co/models?other=medical&sort=trending",
                "items": hf_out[:MED_SIZE]},
