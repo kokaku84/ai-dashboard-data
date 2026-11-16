@@ -1,11 +1,17 @@
 {
- "updatedAt": "2026-11-16T06:40:37+00:00",
+ "updatedAt": "2026-11-16T06:42:12+00:00",
  "date": "2026-11-16",
  "historyDays": 1,
  "hasD1": false,
  "hasD7": false,
  "hasD30": false,
  "medWindow": "stars",
+ "excludedClones": {
+  "repos": 52,
+  "names": [
+   "github-copilot-app"
+  ]
+ },
  "tracked": 1147,
  "tags": [
   "agent-skills",
@@ -142,29 +148,6 @@
     "easy": "개인정보보호법 등 베트남 법에 맞는지 AI 에이전트가 웹사이트나 앱을 검토하고 우선순위별 보고서를 만들어 줍니다. 베트남 시장에 서비스를 내놓기 전 법적 위험을 미리 찾을 때 씁니다. 의료영상 제품을 해외에 낼 때 개인정보 점검 참고용으로도 볼 수 있습니다."
    },
    {
-    "repo": "trackersnailgrip/GitHub-Copilot-app",
-    "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
-    "stars": 385,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 11,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:32:43Z",
-    "createdAt": "2026-11-14T19:16:41Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "여러 저장소의 작업을 에이전트로 처리하는 Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot 에이전트를 실행하고 지켜보며 PR까지 마무리하는 데스크톱 앱이라고 소개합니다. 다만 이 저장소는 토픽이 무관한 키워드로 가득한 복제본 같아 보여, 공식 저장소인지 먼저 확인하는 편이 안전합니다."
-   },
-   {
     "repo": "MiniMax-AI/MiniMax-H3-Image",
     "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
     "stars": 384,
@@ -188,167 +171,6 @@
     "easy": "텍스트 설명으로 고해상도 이미지를 만들거나 고치는 MiniMax의 오픈 웨이트 모델이며, 프롬프트 작성용 스킬도 들어 있습니다. 포스터나 인포그래픽 같은 이미지를 AI로 만들 때 씁니다."
    },
    {
-    "repo": "trackboatwrightplan/GitHub-Copilot-app",
-    "url": "https://github.com/trackboatwrightplan/GitHub-Copilot-app",
-    "stars": 382,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 11,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:32:41Z",
-    "createdAt": "2026-11-14T19:16:41Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "여러 저장소의 작업을 에이전트로 처리하는 Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot 에이전트를 실행하고 지켜보며 PR까지 마무리하는 데스크톱 앱이라고 소개합니다. 다만 이 저장소는 토픽이 무관한 키워드로 가득한 복제본 같아 보여, 공식 저장소인지 먼저 확인하는 편이 안전합니다."
-   },
-   {
-    "repo": "toppatronweave/GitHub-Copilot-app",
-    "url": "https://github.com/toppatronweave/GitHub-Copilot-app",
-    "stars": 381,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 177,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:32:43Z",
-    "createdAt": "2026-11-14T19:25:20Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다."
-   },
-   {
-    "repo": "TrapBladesmith/GitHub-Copilot-app",
-    "url": "https://github.com/TrapBladesmith/GitHub-Copilot-app",
-    "stars": 379,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 11,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:38:02Z",
-    "createdAt": "2026-11-14T19:16:50Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다."
-   },
-   {
-    "repo": "TarantulaCorrect/GitHub-Copilot-app",
-    "url": "https://github.com/TarantulaCorrect/GitHub-Copilot-app",
-    "stars": 378,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 197,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:36:40Z",
-    "createdAt": "2026-11-14T19:25:19Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다."
-   },
-   {
-    "repo": "TurquoiseConsultant/GitHub-Copilot-app",
-    "url": "https://github.com/TurquoiseConsultant/GitHub-Copilot-app",
-    "stars": 378,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 157,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:36:41Z",
-    "createdAt": "2026-11-14T19:25:20Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다."
-   },
-   {
-    "repo": "topconstableinlet67/GitHub-Copilot-app",
-    "url": "https://github.com/topconstableinlet67/GitHub-Copilot-app",
-    "stars": 375,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 195,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:32:40Z",
-    "createdAt": "2026-11-14T19:25:19Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다."
-   },
-   {
-    "repo": "Trapkrostride/GitHub-Copilot-app",
-    "url": "https://github.com/Trapkrostride/GitHub-Copilot-app",
-    "stars": 375,
-    "d1": null,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [],
-    "forks": 198,
-    "issues": 0,
-    "pushedAt": "2026-11-15T10:36:46Z",
-    "createdAt": "2026-11-14T19:25:19Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": null,
-    "description": "에이전트 중심으로 작업을 관리하는 GitHub Copilot 데스크톱 앱",
-    "easy": "GitHub Copilot app은 이슈 선택부터 AI 에이전트 실행, 진행 확인, PR 반영까지 한 화면에서 다루는 데스크톱 앱입니다. 여러 저장소의 작업을 AI에게 동시에 맡기고 싶을 때 쓰며, 세션마다 git worktree를 따로 써서 작업이 서로 충돌하지 않습니다."
-   },
-   {
     "repo": "op7418/guizang-game-skill",
     "url": "https://github.com/op7418/guizang-game-skill",
     "stars": 365,
@@ -370,6 +192,190 @@
     "lang": "JavaScript",
     "description": "AI로 브라우저 3D 액션 게임을 만드는 Agent Skill",
     "easy": "Claude Code나 Codex 같은 AI 코딩 도구에 설치해, 브라우저에서 바로 즐기는 3D 액션 게임을 처음부터 만들게 하는 스킬입니다. 요구사항 확인, 에셋 생성, 화면 검증을 거쳐 게임을 HTML 파일 하나로 묶어 주며, 체험용 데모 게임도 들어 있습니다."
+   },
+   {
+    "repo": "kociden/sakurai-skill",
+    "url": "https://github.com/kociden/sakurai-skill",
+    "stars": 362,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 24,
+    "issues": 0,
+    "pushedAt": "2026-11-12T21:41:59Z",
+    "createdAt": "2026-11-12T15:54:56Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "사쿠라이 마사히로 영상 자막 기반 게임 제작 Agent Skill",
+    "easy": "유튜브 '桜井政博のゲーム作るには' 257편의 자막을 AI가 요약해, 게임 기획·조작감·난이도 같은 제작 원칙을 담은 Agent Skill입니다. 게임을 기획하거나 리뷰할 때, 또는 '손맛이 없다'는 평가를 고칠 때 Claude Code 등에서 불러 쓰며, 비공식 팬 제작물입니다."
+   },
+   {
+    "repo": "threerocks/article2media",
+    "url": "https://github.com/threerocks/article2media",
+    "stars": 354,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 57,
+    "issues": 2,
+    "pushedAt": "2026-11-11T17:05:39Z",
+    "createdAt": "2026-11-08T08:07:28Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "글·영상을 샤오훙수 카드·롱이미지·숏폼으로 만드는 Skill",
+    "easy": "article2media는 글이나 영상 링크 하나를 샤오훙수 카드, 긴 이미지, 공중하오 레이아웃, AI 음성 숏폼 영상으로 바꿔 주는 Claude Code/Codex용 Skill 모음입니다. 한 콘텐츠를 여러 중국 플랫폼에 맞춰 올려야 할 때 쓰며, 결과물은 자동으로 검수됩니다."
+   },
+   {
+    "repo": "yucezerey/turkish-anti-ai-skill",
+    "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
+    "stars": 324,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 26,
+    "issues": 0,
+    "pushedAt": "2026-11-11T01:15:26Z",
+    "createdAt": "2026-11-05T20:08:28Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "터키어 글의 AI 티와 번역투를 고쳐 주는 Agent Skill",
+    "easy": "AI가 쓴 터키어 문장에서 어색한 번역투와 틀린 맞춤법(TDK 기준)을 찾아 자연스럽게 다듬어 주는 Agent Skill입니다. 터키어 문서나 콘텐츠를 AI로 만든 뒤 사람이 쓴 것처럼 고치고 싶을 때 씁니다."
+   },
+   {
+    "repo": "nishant-Tiwari24/cracked",
+    "url": "https://github.com/nishant-Tiwari24/cracked",
+    "stars": 314,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 48,
+    "issues": 0,
+    "pushedAt": "2026-11-14T15:37:14Z",
+    "createdAt": "2026-11-06T08:50:47Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "TypeScript",
+    "description": "기업별 모의면접·OA·이력서 평가를 돕는 취업 준비 Skill",
+    "easy": "cracked는 Claude Code, Codex 등을 면접관 겸 코치로 바꿔 주는 취업 준비용 Skill 모음입니다. 470개 이상 기업의 코딩 모의면접, 숨겨진 테스트가 있는 온라인 평가, 이력서 평가를 연습할 때 씁니다."
+   },
+   {
+    "repo": "bookleme/bookleme",
+    "url": "https://github.com/bookleme/bookleme",
+    "stars": 259,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 3,
+    "issues": 0,
+    "pushedAt": "2026-11-13T09:42:20Z",
+    "createdAt": "2026-11-09T03:29:27Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "책 한 권을 설치 가능한 Agent Skill로 변환하는 도구",
+    "easy": "BookLeme는 책의 핵심 지식과 작업 방식을 뽑아 AI 에이전트가 쓸 수 있는 Skill로 만들어 주는 도구입니다. 책 내용을 요약 노트로 두지 않고 질문 순서나 판단 기준까지 AI가 바로 활용하게 하고 싶을 때 씁니다."
+   },
+   {
+    "repo": "smokeeaasd/flawless-ui-ux",
+    "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+    "stars": 243,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 9,
+    "issues": 0,
+    "pushedAt": "2026-11-15T02:52:21Z",
+    "createdAt": "2026-11-03T14:36:42Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "JavaScript",
+    "description": "개성 있고 쓰기 편한 UI를 만들도록 돕는 코딩 에이전트용 UI/UX 스킬",
+    "easy": "코딩 에이전트가 제품의 사용자와 콘텐츠에 맞는 인터페이스를 설계하고 다듬도록 돕는 스킬입니다. AI가 만든 듯한 밋밋한 화면을 피하고 접근성까지 챙기고 싶을 때 씁니다."
+   },
+   {
+    "repo": "owoevan-dev/music-skill",
+    "url": "https://github.com/owoevan-dev/music-skill",
+    "stars": 232,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 27,
+    "issues": 0,
+    "pushedAt": "2026-11-14T14:03:13Z",
+    "createdAt": "2026-11-02T10:25:32Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "에이전트가 직접 작곡해 연주·믹싱까지 하는 음악 제작 스킬",
+    "easy": "AI 에이전트가 음 하나하나를 직접 써서 무료 샘플 악기로 연주하고 믹싱·마스터링까지 해 주는 스킬입니다. MIDI, 파트별 stem, 게임 배경음 루프가 필요할 때 쓰며, 오디오 생성 모델은 쓰지 않습니다."
+   },
+   {
+    "repo": "codepawl/creator-generalist",
+    "url": "https://github.com/codepawl/creator-generalist",
+    "stars": 208,
+    "d1": null,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [],
+    "forks": 16,
+    "issues": 1,
+    "pushedAt": "2026-11-14T19:15:10Z",
+    "createdAt": "2026-11-06T18:29:48Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "2D·3D 영상과 숏폼 제작을 돕는 에이전트 스킬 모음",
+    "easy": "Blender, Three.js, Remotion 등을 활용해 에이전트가 2D·3D 영상과 애니메이션을 만들어 주는 스킬 묶음입니다. YouTube, TikTok 같은 곳에 올릴 숏폼 콘텐츠를 만들 때 쓰며, 만들기 전에 미리보기로 확인할 수 있습니다."
    }
   ],
   "medical": [
