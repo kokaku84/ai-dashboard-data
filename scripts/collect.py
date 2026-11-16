@@ -404,7 +404,33 @@ def main():
 
     compute(repos, history, today)
     meta = load_json(data_dir / "meta.json", {})
-    live = [r for r in repos.values() if not r["archived"] and not r["fork"]]
+
+    # 복제 스팸 걸러내기: 최근 30일 안에 서로 다른 계정 3곳 이상이 같은 이름으로 만들고
+    # 각각 스타를 20개 이상 받은 저장소는 가짜 스타로 띄운 배포용 복제본일 가능성이 높아 목록에서 뺀다.
+    # (스타가 거의 없는 같은 이름 저장소는 학생 과제 같은 정상 사례라 제외 대상이 아니다.)
+    recent_cut = today - dt.timedelta(days=30)
+    by_name: dict[str, set] = {}
+    for r in repos.values():
+        c = parse_iso(r["createdAt"])
+        if c and c.astimezone(KST).date() >= recent_cut and r["stars"] >= 20:
+            by_name.setdefault(r["repo"].split("/", 1)[1].lower(), set()).add(r["repo"].split("/", 1)[0].lower())
+    clone_names = {n for n, owners in by_name.items() if len(owners) >= 3}
+    clones = [r for r in repos.values() if r["repo"].split("/", 1)[1].lower() in clone_names
+              and (c := parse_iso(r["createdAt"])) and c.astimezone(KST).date() >= recent_cut
+              and r["stars"] >= 20]
+    for r in clones:
+        r["clone"] = True
+    print(f"clone spam excluded: {len(clones)} ({sorted(clone_names)})", file=sys.stderr)
+
+    # 생긴 지 14일 안 된 저장소는 기록이 없어도 '생긴 뒤 받은 스타'로 확인 필요 여부를 본다.
+    for r in repos.values():
+        c = parse_iso(r["createdAt"])
+        if c and c.astimezone(KST).date() >= today - dt.timedelta(days=NEWBORN_DAYS):
+            s = r["stars"]
+            if s >= 300 and r["forks"] < max(5, s * 0.01) and r["issues"] == 0:
+                r["suspect"] = True
+
+    live = [r for r in repos.values() if not r["archived"] and not r["fork"] and not r.get("clone")]
     young_cut = today - dt.timedelta(days=NEWBORN_DAYS)
 
     def created_after(r, cut):
@@ -465,6 +491,7 @@ def main():
         "hasD7": (today - dt.timedelta(days=7)) in history,
         "hasD30": (today - dt.timedelta(days=30)) in history,
         "medWindow": med_window or "stars",
+        "excludedClones": {"repos": len(clones), "names": sorted(clone_names)},
         "tracked": len(repos),
         "tags": tags,
         "medicalTags": sorted(medical),
