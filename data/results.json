@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-18T01:52:14+00:00",
+ "updatedAt": "2026-11-18T02:54:30+00:00",
  "date": "2026-11-18",
  "historyDays": 3,
  "hasD1": true,
@@ -12,7 +12,7 @@
    "github-copilot-app"
   ]
  },
- "tracked": 1236,
+ "tracked": 1234,
  "tags": [
   "agent-skills",
   "dicom",
@@ -32,8 +32,8 @@
    {
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea",
-    "stars": 466414,
-    "d1": 1987,
+    "stars": 466515,
+    "d1": 2088,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -68,11 +68,11 @@
      null,
      462639,
      464427,
-     466414
+     466515
     ],
-    "forks": 114114,
-    "issues": 1540,
-    "pushedAt": "2026-11-18T01:51:02Z",
+    "forks": 114139,
+    "issues": 1544,
+    "pushedAt": "2026-11-18T02:52:05Z",
     "createdAt": "2026-04-14T00:51:32Z",
     "stale": false,
     "suspect": false,
@@ -86,8 +86,8 @@
    {
     "repo": "nexu-io/openmotion",
     "url": "https://github.com/nexu-io/openmotion",
-    "stars": 11009,
-    "d1": 928,
+    "stars": 11077,
+    "d1": 996,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -122,10 +122,10 @@
      null,
      10016,
      10081,
-     11009
+     11077
     ],
-    "forks": 1096,
-    "issues": 68,
+    "forks": 1100,
+    "issues": 69,
     "pushedAt": "2026-11-17T17:26:22Z",
     "createdAt": "2026-05-11T09:40:38Z",
     "stale": false,
@@ -140,8 +140,8 @@
    {
     "repo": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 193107,
-    "d1": 829,
+    "stars": 193190,
+    "d1": 912,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -176,9 +176,9 @@
      null,
      191647,
      192278,
-     193107
+     193190
     ],
-    "forks": 10848,
+    "forks": 10858,
     "issues": 256,
     "pushedAt": "2026-10-29T11:59:31Z",
     "createdAt": "2026-06-12T00:52:37Z",
@@ -192,64 +192,10 @@
     "easy": "AI가 코드를 너무 많이 쓰는 것을 막는 스킬입니다. 결과물을 짧고 단순하게 유지하고 싶을 때 씁니다."
    },
    {
-    "repo": "kajisho5/ffmpeg-skill",
-    "url": "https://github.com/kajisho5/ffmpeg-skill",
-    "stars": 7763,
-    "d1": 784,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     6076,
-     6979,
-     7763
-    ],
-    "forks": 718,
-    "issues": 53,
-    "pushedAt": "2026-11-18T01:40:37Z",
-    "createdAt": "2026-09-03T14:33:38Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "agent-skills"
-    ],
-    "lang": "Python",
-    "description": "코딩 에이전트용 로컬 FFmpeg 영상 편집 도구 42종",
-    "easy": "Claude Code, Cursor, Codex 같은 AI 에이전트가 내 PC의 FFmpeg로 영상을 자르고, 자막을 넣고, 비율과 음량을 맞추게 해 주는 도구 모음입니다. 클라우드나 API 키 없이 영상을 편집하고 결과까지 스스로 검증하게 하고 싶을 때 씁니다."
-   },
-   {
     "repo": "Leonxlnx/taste-skill",
     "url": "https://github.com/Leonxlnx/taste-skill",
-    "stars": 117774,
-    "d1": 778,
+    "stars": 117812,
+    "d1": 816,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -284,9 +230,9 @@
      null,
      116417,
      116996,
-     117774
+     117812
     ],
-    "forks": 7883,
+    "forks": 7885,
     "issues": 10,
     "pushedAt": "2026-11-08T21:51:50Z",
     "createdAt": "2026-02-19T21:44:05Z",
@@ -302,8 +248,8 @@
    {
     "repo": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
-    "stars": 112231,
-    "d1": 764,
+    "stars": 112270,
+    "d1": 803,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -338,11 +284,11 @@
      null,
      110941,
      111467,
-     112231
+     112270
     ],
-    "forks": 6695,
+    "forks": 6696,
     "issues": 53,
-    "pushedAt": "2026-11-18T01:45:17Z",
+    "pushedAt": "2026-11-18T02:51:11Z",
     "createdAt": "2025-11-16T01:52:04Z",
     "stale": false,
     "suspect": false,
@@ -354,10 +300,64 @@
     "easy": "AI에게 화면을 만들게 할 때 함께 주는 디자인 가이드입니다. 결과물의 완성도를 일정하게 맞추고 싶을 때 씁니다."
    },
    {
+    "repo": "kajisho5/ffmpeg-skill",
+    "url": "https://github.com/kajisho5/ffmpeg-skill",
+    "stars": 7777,
+    "d1": 798,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     6076,
+     6979,
+     7777
+    ],
+    "forks": 721,
+    "issues": 53,
+    "pushedAt": "2026-11-18T01:40:37Z",
+    "createdAt": "2026-09-03T14:33:38Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "agent-skills"
+    ],
+    "lang": "Python",
+    "description": "코딩 에이전트용 로컬 FFmpeg 영상 편집 도구 42종",
+    "easy": "Claude Code, Cursor, Codex 같은 AI 에이전트가 내 PC의 FFmpeg로 영상을 자르고, 자막을 넣고, 비율과 음량을 맞추게 해 주는 도구 모음입니다. 클라우드나 API 키 없이 영상을 편집하고 결과까지 스스로 검증하게 하고 싶을 때 씁니다."
+   },
+   {
     "repo": "alibaba/open-code-review",
     "url": "https://github.com/alibaba/open-code-review",
-    "stars": 53763,
-    "d1": 699,
+    "stars": 53807,
+    "d1": 743,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -392,11 +392,11 @@
      null,
      52450,
      53064,
-     53763
+     53807
     ],
-    "forks": 4432,
-    "issues": 357,
-    "pushedAt": "2026-11-17T12:46:22Z",
+    "forks": 4434,
+    "issues": 350,
+    "pushedAt": "2026-11-18T02:46:12Z",
     "createdAt": "2026-05-18T02:16:36Z",
     "stale": false,
     "suspect": false,
@@ -410,8 +410,8 @@
    {
     "repo": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
-    "stars": 196753,
-    "d1": 612,
+    "stars": 196788,
+    "d1": 647,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -446,9 +446,9 @@
      null,
      195536,
      196141,
-     196753
+     196788
     ],
-    "forks": 23064,
+    "forks": 23067,
     "issues": 1549,
     "pushedAt": "2026-11-16T14:22:50Z",
     "createdAt": "2025-09-22T15:53:31Z",
@@ -464,8 +464,8 @@
    {
     "repo": "EL4CTEO/blender-skills",
     "url": "https://github.com/EL4CTEO/blender-skills",
-    "stars": 1974,
-    "d1": 596,
+    "stars": 1984,
+    "d1": 606,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -500,9 +500,9 @@
      null,
      1249,
      1378,
-     1974
+     1984
     ],
-    "forks": 166,
+    "forks": 168,
     "issues": 0,
     "pushedAt": "2026-11-17T15:20:14Z",
     "createdAt": "2026-10-14T19:08:14Z",
@@ -518,8 +518,8 @@
    {
     "repo": "JuneYaooo/rea-video",
     "url": "https://github.com/JuneYaooo/rea-video",
-    "stars": 10301,
-    "d1": 538,
+    "stars": 10324,
+    "d1": 561,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -554,11 +554,11 @@
      null,
      9381,
      9763,
-     10301
+     10324
     ],
-    "forks": 1521,
+    "forks": 1527,
     "issues": 5,
-    "pushedAt": "2026-11-18T00:09:05Z",
+    "pushedAt": "2026-11-18T02:48:41Z",
     "createdAt": "2026-10-29T16:15:01Z",
     "stale": false,
     "suspect": false,
@@ -572,8 +572,8 @@
    {
     "repo": "lemomo-ai/lemo-opuscar",
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
-    "stars": 17861,
-    "d1": 529,
+    "stars": 17883,
+    "d1": 551,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -608,9 +608,9 @@
      null,
      16927,
      17332,
-     17861
+     17883
     ],
-    "forks": 2243,
+    "forks": 2249,
     "issues": 1,
     "pushedAt": "2026-11-17T05:17:37Z",
     "createdAt": "2026-09-26T10:10:41Z",
@@ -626,8 +626,8 @@
    {
     "repo": "blader/humanizer",
     "url": "https://github.com/blader/humanizer",
-    "stars": 70392,
-    "d1": 426,
+    "stars": 70417,
+    "d1": 451,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -662,9 +662,9 @@
      null,
      69605,
      69966,
-     70392
+     70417
     ],
-    "forks": 5530,
+    "forks": 5534,
     "issues": 5,
     "pushedAt": "2026-11-10T01:35:15Z",
     "createdAt": "2026-01-18T05:30:15Z",
@@ -680,8 +680,8 @@
    {
     "repo": "google/elephant-goldfish-model",
     "url": "https://github.com/google/elephant-goldfish-model",
-    "stars": 20806,
-    "d1": 369,
+    "stars": 20823,
+    "d1": 386,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -716,9 +716,9 @@
      null,
      19976,
      20437,
-     20806
+     20823
     ],
-    "forks": 1534,
+    "forks": 1537,
     "issues": 118,
     "pushedAt": "2026-11-18T01:40:26Z",
     "createdAt": "2026-09-13T16:31:06Z",
@@ -734,8 +734,8 @@
    {
     "repo": "boringmarketer/boring-marketing-skills",
     "url": "https://github.com/boringmarketer/boring-marketing-skills",
-    "stars": 535,
-    "d1": 351,
+    "stars": 542,
+    "d1": 358,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -770,9 +770,9 @@
      null,
      0,
      184,
-     535
+     542
     ],
-    "forks": 208,
+    "forks": 210,
     "issues": 1,
     "pushedAt": "2026-11-17T22:53:58Z",
     "createdAt": "2026-11-16T15:09:46Z",
@@ -788,8 +788,8 @@
    {
     "repo": "Vincentwei1021/video-shotcraft",
     "url": "https://github.com/Vincentwei1021/video-shotcraft",
-    "stars": 21015,
-    "d1": 337,
+    "stars": 21035,
+    "d1": 357,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -824,9 +824,9 @@
      null,
      20258,
      20678,
-     21015
+     21035
     ],
-    "forks": 1933,
+    "forks": 1935,
     "issues": 4,
     "pushedAt": "2026-11-17T17:57:43Z",
     "createdAt": "2026-07-19T11:44:41Z",
@@ -846,15 +846,15 @@
    {
     "repo": "erkamyaman/rust-anything",
     "url": "https://github.com/erkamyaman/rust-anything",
-    "stars": 1405,
+    "stars": 1493,
     "d1": null,
     "d7": null,
     "d30": null,
     "pct7": null,
     "accel": null,
     "spark": [],
-    "forks": 94,
-    "issues": 1,
+    "forks": 102,
+    "issues": 2,
     "pushedAt": "2026-11-18T01:20:09Z",
     "createdAt": "2026-11-16T12:10:36Z",
     "stale": false,
@@ -870,8 +870,8 @@
    {
     "repo": "dabingfy-dot/solo-to-team-skills",
     "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
-    "stars": 1020,
-    "d1": 43,
+    "stars": 1022,
+    "d1": 45,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -906,7 +906,7 @@
      null,
      940,
      977,
-     1020
+     1022
     ],
     "forks": 120,
     "issues": 24,
@@ -925,8 +925,8 @@
    {
     "repo": "Dodaios/ste80-humanizer",
     "url": "https://github.com/Dodaios/ste80-humanizer",
-    "stars": 766,
-    "d1": 19,
+    "stars": 767,
+    "d1": 20,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -961,7 +961,7 @@
      null,
      707,
      747,
-     766
+     767
     ],
     "forks": 58,
     "issues": 0,
@@ -980,8 +980,8 @@
    {
     "repo": "Moh4696/cinematic-skill",
     "url": "https://github.com/Moh4696/cinematic-skill",
-    "stars": 735,
-    "d1": 80,
+    "stars": 737,
+    "d1": 82,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1016,9 +1016,9 @@
      null,
      537,
      655,
-     735
+     737
     ],
-    "forks": 111,
+    "forks": 112,
     "issues": 1,
     "pushedAt": "2026-11-09T15:35:12Z",
     "createdAt": "2026-11-09T07:58:11Z",
@@ -1035,8 +1035,8 @@
    {
     "repo": "boringmarketer/boring-marketing-skills",
     "url": "https://github.com/boringmarketer/boring-marketing-skills",
-    "stars": 535,
-    "d1": 351,
+    "stars": 542,
+    "d1": 358,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1071,9 +1071,9 @@
      null,
      0,
      184,
-     535
+     542
     ],
-    "forks": 208,
+    "forks": 210,
     "issues": 1,
     "pushedAt": "2026-11-17T22:53:58Z",
     "createdAt": "2026-11-16T15:09:46Z",
@@ -1090,8 +1090,8 @@
    {
     "repo": "threerocks/article2media",
     "url": "https://github.com/threerocks/article2media",
-    "stars": 431,
-    "d1": 13,
+    "stars": 432,
+    "d1": 14,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1126,7 +1126,7 @@
      null,
      359,
      418,
-     431
+     432
     ],
     "forks": 64,
     "issues": 2,
@@ -1145,8 +1145,8 @@
    {
     "repo": "kociden/sakurai-skill",
     "url": "https://github.com/kociden/sakurai-skill",
-    "stars": 427,
-    "d1": 47,
+    "stars": 430,
+    "d1": 50,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1181,9 +1181,9 @@
      null,
      364,
      380,
-     427
+     430
     ],
-    "forks": 32,
+    "forks": 33,
     "issues": 0,
     "pushedAt": "2026-11-12T21:41:59Z",
     "createdAt": "2026-11-12T15:54:56Z",
@@ -1200,8 +1200,8 @@
    {
     "repo": "MiniMax-AI/MiniMax-H3-Image",
     "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
-    "stars": 411,
-    "d1": 8,
+    "stars": 412,
+    "d1": 9,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1236,7 +1236,7 @@
      null,
      386,
      403,
-     411
+     412
     ],
     "forks": 22,
     "issues": 3,
@@ -1255,8 +1255,8 @@
    {
     "repo": "op7418/guizang-game-skill",
     "url": "https://github.com/op7418/guizang-game-skill",
-    "stars": 400,
-    "d1": 17,
+    "stars": 402,
+    "d1": 19,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1291,7 +1291,7 @@
      null,
      366,
      383,
-     400
+     402
     ],
     "forks": 61,
     "issues": 3,
@@ -1475,8 +1475,8 @@
    {
     "repo": "codepawl/creator-generalist",
     "url": "https://github.com/codepawl/creator-generalist",
-    "stars": 278,
-    "d1": 60,
+    "stars": 279,
+    "d1": 61,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1511,9 +1511,9 @@
      null,
      208,
      218,
-     278
+     279
     ],
-    "forks": 26,
+    "forks": 27,
     "issues": 0,
     "pushedAt": "2026-11-17T16:59:24Z",
     "createdAt": "2026-11-06T18:29:48Z",
@@ -1530,8 +1530,8 @@
    {
     "repo": "Sunghwan0112/spritecast",
     "url": "https://github.com/Sunghwan0112/spritecast",
-    "stars": 264,
-    "d1": 136,
+    "stars": 267,
+    "d1": 139,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1566,7 +1566,7 @@
      null,
      53,
      128,
-     264
+     267
     ],
     "forks": 33,
     "issues": 1,
@@ -1585,8 +1585,8 @@
    {
     "repo": "erkamyaman/unslopovich",
     "url": "https://github.com/erkamyaman/unslopovich",
-    "stars": 218,
-    "d1": 43,
+    "stars": 219,
+    "d1": 44,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1621,7 +1621,7 @@
      null,
      145,
      175,
-     218
+     219
     ],
     "forks": 16,
     "issues": 4,
@@ -1642,8 +1642,8 @@
    {
     "repo": "kmario23/deep-learning-drizzle",
     "url": "https://github.com/kmario23/deep-learning-drizzle",
-    "stars": 12990,
-    "d1": 2,
+    "stars": 12992,
+    "d1": 4,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1678,7 +1678,7 @@
      null,
      12987,
      12988,
-     12990
+     12992
     ],
     "forks": 2976,
     "issues": 5,
@@ -1692,6 +1692,61 @@
     "lang": "HTML",
     "description": "딥러닝·컴퓨터 비전·NLP 강의 모음",
     "easy": "대학과 연구 기관의 딥러닝 관련 공개 강의를 주제별로 모은 목록입니다. 의료영상 AI를 공부하기 시작할 때 강의를 찾는 데 좋습니다."
+   },
+   {
+    "repo": "Slicer/Slicer",
+    "url": "https://github.com/Slicer/Slicer",
+    "stars": 2737,
+    "d1": 3,
+    "d7": null,
+    "d30": null,
+    "pct7": null,
+    "accel": null,
+    "spark": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     2730,
+     2734,
+     2737
+    ],
+    "forks": 810,
+    "issues": 678,
+    "pushedAt": "2026-11-17T19:57:29Z",
+    "createdAt": "2020-03-12T22:13:53Z",
+    "stale": false,
+    "suspect": false,
+    "tags": [
+     "image-processing",
+     "medical-imaging"
+    ],
+    "lang": "C++",
+    "description": "의료영상 시각화·분석용 오픈소스 3D Slicer",
+    "easy": "3D Slicer는 CT, MRI 같은 의료영상을 3D로 보고 분석·처리하는 무료 오픈소스 프로그램입니다. 영상 확인, 분할(세그멘테이션), 연구용 영상 처리가 필요할 때 씁니다. C++ 기반 의료영상 소프트웨어라 DICOM·PACS·MFC/C++ 개발팀이 구조와 기능을 참고하기 좋습니다."
    },
    {
     "repo": "FreedomIntelligence/Awesome-AI4Med",
@@ -1748,9 +1803,9 @@
     "easy": "의료 분야 AI 모델, 데이터셋, 벤치마크를 한곳에 정리해 둔 목록 저장소입니다. 의료 AI 연구 동향을 파악하거나 쓸 만한 모델과 자료를 찾을 때 참고합니다. 의료영상 관련 모델 목록도 있어 DICOM·PACS 개발팀이 AI 기능을 검토할 때 도움이 됩니다."
    },
    {
-    "repo": "Slicer/Slicer",
-    "url": "https://github.com/Slicer/Slicer",
-    "stars": 2736,
+    "repo": "ivmartel/dwv",
+    "url": "https://github.com/ivmartel/dwv",
+    "stars": 1857,
     "d1": 2,
     "d7": null,
     "d30": null,
@@ -1784,23 +1839,23 @@
      null,
      null,
      null,
-     2730,
-     2734,
-     2736
+     1855,
+     1855,
+     1857
     ],
-    "forks": 809,
-    "issues": 678,
-    "pushedAt": "2026-11-17T19:57:29Z",
-    "createdAt": "2020-03-12T22:13:53Z",
+    "forks": 633,
+    "issues": 44,
+    "pushedAt": "2026-11-17T13:02:52Z",
+    "createdAt": "2011-09-21T07:31:32Z",
     "stale": false,
     "suspect": false,
     "tags": [
-     "image-processing",
+     "dicom",
      "medical-imaging"
     ],
-    "lang": "C++",
-    "description": "의료영상 시각화·분석용 오픈소스 3D Slicer",
-    "easy": "3D Slicer는 CT, MRI 같은 의료영상을 3D로 보고 분석·처리하는 무료 오픈소스 프로그램입니다. 영상 확인, 분할(세그멘테이션), 연구용 영상 처리가 필요할 때 씁니다. C++ 기반 의료영상 소프트웨어라 DICOM·PACS·MFC/C++ 개발팀이 구조와 기능을 참고하기 좋습니다."
+    "lang": "JavaScript",
+    "description": "설치 없이 웹에서 쓰는 오픈소스 DICOM 뷰어 라이브러리",
+    "easy": "자바스크립트만으로 브라우저에서 DICOM 영상을 열고 확대, 대비 조절, 주석 등을 할 수 있는 뷰어 라이브러리입니다. 별도 설치 없이 웹에서 의료영상을 보여주고 싶을 때 씁니다. PACS와 연동하는 웹 뷰어를 만들 때 참고하기 좋고, 진단용으로 인증된 제품은 아닙니다."
    },
    {
     "repo": "JunMa11/MICCAI-OpenSourcePapers",
@@ -2020,61 +2075,6 @@
     "easy": "PyTorch로 만든 3D 의료영상 분할용 딥러닝 모델과 데이터 로더 모음입니다. 뇌 MRI 같은 영상에서 장기나 병변 영역을 자동으로 나누는 모델을 실험할 때 씁니다. DICOM 영상을 다루는 팀이 AI 분할 기능을 시험해 볼 때 참고할 수 있습니다."
    },
    {
-    "repo": "ivmartel/dwv",
-    "url": "https://github.com/ivmartel/dwv",
-    "stars": 1856,
-    "d1": 1,
-    "d7": null,
-    "d30": null,
-    "pct7": null,
-    "accel": null,
-    "spark": [
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     null,
-     1855,
-     1855,
-     1856
-    ],
-    "forks": 633,
-    "issues": 44,
-    "pushedAt": "2026-11-17T13:02:52Z",
-    "createdAt": "2011-09-21T07:31:32Z",
-    "stale": false,
-    "suspect": false,
-    "tags": [
-     "dicom",
-     "medical-imaging"
-    ],
-    "lang": "JavaScript",
-    "description": "설치 없이 웹에서 쓰는 오픈소스 DICOM 뷰어 라이브러리",
-    "easy": "자바스크립트만으로 브라우저에서 DICOM 영상을 열고 확대, 대비 조절, 주석 등을 할 수 있는 뷰어 라이브러리입니다. 별도 설치 없이 웹에서 의료영상을 보여주고 싶을 때 씁니다. PACS와 연동하는 웹 뷰어를 만들 때 참고하기 좋고, 진단용으로 인증된 제품은 아닙니다."
-   },
-   {
     "repo": "nroduit/Weasis",
     "url": "https://github.com/nroduit/Weasis",
     "stars": 1453,
@@ -2188,8 +2188,8 @@
    {
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea",
-    "stars": 466414,
-    "d1": 1987,
+    "stars": 466515,
+    "d1": 2088,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2224,11 +2224,11 @@
      null,
      462639,
      464427,
-     466414
+     466515
     ],
-    "forks": 114114,
-    "issues": 1540,
-    "pushedAt": "2026-11-18T01:51:02Z",
+    "forks": 114139,
+    "issues": 1544,
+    "pushedAt": "2026-11-18T02:52:05Z",
     "createdAt": "2026-04-14T00:51:32Z",
     "stale": false,
     "suspect": false,
@@ -2243,8 +2243,8 @@
    {
     "repo": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
-    "stars": 196753,
-    "d1": 612,
+    "stars": 196788,
+    "d1": 647,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2279,9 +2279,9 @@
      null,
      195536,
      196141,
-     196753
+     196788
     ],
-    "forks": 23064,
+    "forks": 23067,
     "issues": 1549,
     "pushedAt": "2026-11-16T14:22:50Z",
     "createdAt": "2025-09-22T15:53:31Z",
@@ -2298,8 +2298,8 @@
    {
     "repo": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 193107,
-    "d1": 829,
+    "stars": 193190,
+    "d1": 912,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2334,9 +2334,9 @@
      null,
      191647,
      192278,
-     193107
+     193190
     ],
-    "forks": 10848,
+    "forks": 10858,
     "issues": 256,
     "pushedAt": "2026-10-29T11:59:31Z",
     "createdAt": "2026-06-12T00:52:37Z",
@@ -2353,8 +2353,8 @@
    {
     "repo": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
-    "stars": 118669,
-    "d1": 290,
+    "stars": 118686,
+    "d1": 307,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2389,9 +2389,9 @@
      null,
      118068,
      118379,
-     118669
+     118686
     ],
-    "forks": 12378,
+    "forks": 12377,
     "issues": 132,
     "pushedAt": "2026-11-14T04:33:56Z",
     "createdAt": "2026-02-15T20:20:26Z",
@@ -2408,8 +2408,8 @@
    {
     "repo": "Leonxlnx/taste-skill",
     "url": "https://github.com/Leonxlnx/taste-skill",
-    "stars": 117774,
-    "d1": 778,
+    "stars": 117812,
+    "d1": 816,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2444,9 +2444,9 @@
      null,
      116417,
      116996,
-     117774
+     117812
     ],
-    "forks": 7883,
+    "forks": 7885,
     "issues": 10,
     "pushedAt": "2026-11-08T21:51:50Z",
     "createdAt": "2026-02-19T21:44:05Z",
@@ -2463,8 +2463,8 @@
    {
     "repo": "paperclipai/paperclip",
     "url": "https://github.com/paperclipai/paperclip",
-    "stars": 114587,
-    "d1": 197,
+    "stars": 114596,
+    "d1": 206,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2499,11 +2499,11 @@
      null,
      114196,
      114390,
-     114587
+     114596
     ],
-    "forks": 19002,
-    "issues": 6848,
-    "pushedAt": "2026-11-18T01:43:46Z",
+    "forks": 19004,
+    "issues": 6853,
+    "pushedAt": "2026-11-18T02:45:09Z",
     "createdAt": "2026-03-02T15:01:51Z",
     "stale": false,
     "suspect": false,
@@ -2518,8 +2518,8 @@
    {
     "repo": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
-    "stars": 112231,
-    "d1": 764,
+    "stars": 112270,
+    "d1": 803,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2554,11 +2554,11 @@
      null,
      110941,
      111467,
-     112231
+     112270
     ],
-    "forks": 6695,
+    "forks": 6696,
     "issues": 53,
-    "pushedAt": "2026-11-18T01:45:17Z",
+    "pushedAt": "2026-11-18T02:51:11Z",
     "createdAt": "2025-11-16T01:52:04Z",
     "stale": false,
     "suspect": false,
@@ -2573,8 +2573,8 @@
    {
     "repo": "nexu-io/open-design",
     "url": "https://github.com/nexu-io/open-design",
-    "stars": 108116,
-    "d1": 150,
+    "stars": 108132,
+    "d1": 166,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2609,10 +2609,10 @@
      null,
      107813,
      107966,
-     108116
+     108132
     ],
     "forks": 12275,
-    "issues": 1413,
+    "issues": 1415,
     "pushedAt": "2026-11-18T01:09:47Z",
     "createdAt": "2026-04-28T04:25:20Z",
     "stale": false,
@@ -2628,8 +2628,8 @@
    {
     "repo": "tt-a1i/archify",
     "url": "https://github.com/tt-a1i/archify",
-    "stars": 97494,
-    "d1": 291,
+    "stars": 97509,
+    "d1": 306,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2664,9 +2664,9 @@
      null,
      96942,
      97203,
-     97494
+     97509
     ],
-    "forks": 6660,
+    "forks": 6659,
     "issues": 368,
     "pushedAt": "2026-11-18T01:07:59Z",
     "createdAt": "2026-04-15T05:27:37Z",
@@ -2740,8 +2740,8 @@
    {
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea",
-    "stars": 466414,
-    "d1": 1987,
+    "stars": 466515,
+    "d1": 2088,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2776,11 +2776,11 @@
      null,
      462639,
      464427,
-     466414
+     466515
     ],
-    "forks": 114114,
-    "issues": 1540,
-    "pushedAt": "2026-11-18T01:51:02Z",
+    "forks": 114139,
+    "issues": 1544,
+    "pushedAt": "2026-11-18T02:52:05Z",
     "createdAt": "2026-04-14T00:51:32Z",
     "stale": false,
     "suspect": false,
@@ -2795,8 +2795,8 @@
    {
     "repo": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
-    "stars": 196753,
-    "d1": 612,
+    "stars": 196788,
+    "d1": 647,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2831,9 +2831,9 @@
      null,
      195536,
      196141,
-     196753
+     196788
     ],
-    "forks": 23064,
+    "forks": 23067,
     "issues": 1549,
     "pushedAt": "2026-11-16T14:22:50Z",
     "createdAt": "2025-09-22T15:53:31Z",
@@ -2850,8 +2850,8 @@
    {
     "repo": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 193107,
-    "d1": 829,
+    "stars": 193190,
+    "d1": 912,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2886,9 +2886,9 @@
      null,
      191647,
      192278,
-     193107
+     193190
     ],
-    "forks": 10848,
+    "forks": 10858,
     "issues": 256,
     "pushedAt": "2026-10-29T11:59:31Z",
     "createdAt": "2026-06-12T00:52:37Z",
@@ -2960,8 +2960,8 @@
    {
     "repo": "roboflow/supervision",
     "url": "https://github.com/roboflow/supervision",
-    "stars": 51659,
-    "d1": 15,
+    "stars": 51661,
+    "d1": 17,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2996,7 +2996,7 @@
      null,
      51637,
      51644,
-     51659
+     51661
     ],
     "forks": 4959,
     "issues": 110,
@@ -3070,8 +3070,8 @@
    {
     "repo": "kmario23/deep-learning-drizzle",
     "url": "https://github.com/kmario23/deep-learning-drizzle",
-    "stars": 12990,
-    "d1": 2,
+    "stars": 12992,
+    "d1": 4,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -3106,7 +3106,7 @@
      null,
      12987,
      12988,
-     12990
+     12992
     ],
     "forks": 2976,
     "issues": 5,
@@ -3651,7 +3651,7 @@
     "url": "https://huggingface.co/google/medgemma-1.5-4b-it",
     "likes": 1157,
     "downloads": 232537,
-    "trending": 18,
+    "trending": 17,
     "task": "image-text-to-text",
     "createdAt": "2026-01-07T23:07:01.000Z",
     "description": "Google의 의료 영상·텍스트 이해용 멀티모달 AI 모델",
