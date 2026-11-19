@@ -820,5 +820,65 @@
   "easy": "MONAI Label은 AI의 도움을 받아 CT·MRI 같은 의료영상에 병변이나 장기 영역을 쉽게 표시(라벨링)하게 해 주는 서버-클라이언트 도구입니다. AI 학습용 데이터셋을 만들거나 3D Slicer 같은 뷰어에서 분할(segmentation) 모델을 시험할 때 씁니다. DICOM/PACS 개발팀이라면 영상 판독 보조나 학습 데이터 구축 쪽 참고 자료로 볼 만합니다.",
   "exclude": false,
   "at": "2026-11-18"
+ },
+ "LemonFace0309/charles-skills": {
+  "description": "Claude Code·Codex용 디자인, 릴스 편집 스킬 모음",
+  "easy": "AI 코딩 에이전트(Claude Code, Codex)에 붙여 쓰는 스킬 모음으로, UI 디자인과 영상 편집 작업을 도와줍니다. npx 명령 한 줄로 설치하며, 디자인이나 릴스 제작을 에이전트에게 맡길 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "amanchadha/coursera-ai-for-medicine-specialization": {
+  "description": "Coursera 의료 AI 전문과정의 실습·퀴즈 풀이 모음",
+  "easy": "deeplearning.ai의 Coursera 'AI for Medicine' 과정에서 푼 과제와 퀴즈를 모아 둔 저장소입니다. X-Ray·MRI 진단, 생존율 예측 등 의료 AI의 기초를 공부할 때 참고합니다. 의료영상 개발팀이 딥러닝 기초를 익히는 학습 자료로도 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "NRAD-UKAachen/InterACT": {
+  "description": "DICOM 보관·뷰어·분석을 묶은 신경영상 연구 플랫폼",
+  "easy": "아헨 대학병원이 만든 연구용 영상 플랫폼으로, DICOM 저장소(PACS), 웹 뷰어, 로그인, 분석 파이프라인을 한데 묶었습니다. 뇌영상을 모아 AI로 분석하고 결과를 DICOM으로 되돌려 저장할 때 쓰며, 의료기기가 아닌 연구용입니다. PACS·DICOM 개발팀이 구성 방식을 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "orca-mi/orca-mi": {
+  "description": "PET·SPECT·CT용 Windows 분자영상 워크스테이션",
+  "easy": "PET, SPECT, CT 영상을 보고 합치며 AI 분할, 정량 분석, 선량 계산까지 하는 Windows 프로그램입니다. DICOM을 열어 분석하고 결과를 PACS로 다시 보낼 때 쓰며, 연구용으로만 무료입니다. DICOM·PACS 개발팀이 뷰어 기능을 비교해 보기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "MedMNIST/MedMNIST": {
+  "description": "2D·3D 의료영상 분류용 표준화 데이터셋 18종",
+  "easy": "MNIST처럼 작고 규격이 통일된 의료영상 데이터셋 18종을 pip로 쉽게 불러오는 라이브러리입니다. 의료영상 AI 모델을 빠르게 실험하거나 성능을 비교할 때 씁니다. 의료영상 개발팀이 AI 실험을 가볍게 시작하기에 알맞습니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "MrGiovanni/ModelsGenesis": {
+  "description": "라벨 없는 3D 의료영상으로 사전학습하는 모델",
+  "easy": "라벨이 없는 CT·MRI 3D 영상으로 미리 학습시켜 두는 자기지도 학습 모델입니다. 라벨 데이터가 적을 때 이 모델을 가져와 분할이나 분류 모델을 미세조정하는 데 씁니다. CT·MRI 등 DICOM 영상을 다루는 팀이 AI 도입을 검토할 때 참고할 만합니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "MIC-DKFZ/nnDetection": {
+  "description": "3D 의료영상 객체 검출을 자동 설정하는 프레임워크",
+  "easy": "CT·MRI 같은 3D 영상에서 병변 같은 대상을 찾아 위치와 종류를 알려주는 검출 프레임워크입니다. 데이터에 맞춰 설정을 자동으로 잡아 주므로 새 데이터에 사람이 손대지 않고 적용할 때 씁니다. 의료영상 개발팀이 병변 검출 연구를 할 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "albumentations-team/AlbumentationsX": {
+  "description": "컴퓨터 비전용 Python 이미지 증강 라이브러리",
+  "easy": "이미지를 뒤집거나 회전, 밝기 조절하는 식으로 기존 데이터에서 학습용 샘플을 늘려 주는 Python 라이브러리입니다. 딥러닝 모델을 학습할 때 데이터가 부족한 경우에 씁니다. AGPL-3.0 또는 상용 라이선스라서 사내 사용 전 라이선스 확인이 필요합니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "dcmjs-org/dcmjs": {
+  "description": "JavaScript로 DICOM 파일을 읽고 쓰고 다루는 라이브러리",
+  "easy": "dcmjs는 브라우저나 Node에서 DICOM 의료영상 데이터를 읽고, 수정하고, 새로 만들 수 있게 해주는 JavaScript 라이브러리입니다. 웹 기반 의료영상 뷰어나 도구에서 DICOM을 다룰 때 쓰며, PACS·DICOM을 다루는 MFC/C++ 팀이 웹 쪽 연동이나 DICOM 구조를 확인할 때 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-19"
+ },
+ "OpenMed/GLiNER2.5-Anatomy-Small-v1": {
+  "description": "영어 의료 텍스트에서 해부학 용어를 추출하는 GLiNER2 모델",
+  "easy": "의료·생의학 영어 문장에서 신체 부위 같은 해부학 관련 용어를 찾아내는 개체명 인식(NER) 모델입니다. 진료 기록이나 논문 텍스트에서 해부학 정보를 자동으로 뽑아 정리하고 싶을 때 쓰며, README가 비어 있어 자세한 사용법은 별도 확인이 필요합니다.",
+  "exclude": false,
+  "at": "2026-11-19"
  }
 }
