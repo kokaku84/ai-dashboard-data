@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-19T01:28:14+00:00",
+ "updatedAt": "2026-11-19T02:32:54+00:00",
  "date": "2026-11-19",
  "historyDays": 4,
  "hasD1": true,
@@ -32,8 +32,8 @@
    {
     "repo": "erkamyaman/rust-anything",
     "url": "https://github.com/erkamyaman/rust-anything",
-    "stars": 3390,
-    "d1": 1897,
+    "stars": 3462,
+    "d1": 1969,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -68,10 +68,10 @@
      null,
      null,
      1493,
-     3390
+     3462
     ],
-    "forks": 272,
-    "issues": 7,
+    "forks": 279,
+    "issues": 8,
     "pushedAt": "2026-11-18T21:09:57Z",
     "createdAt": "2026-11-16T12:10:36Z",
     "stale": false,
@@ -86,8 +86,8 @@
    {
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea",
-    "stars": 468331,
-    "d1": 1816,
+    "stars": 468414,
+    "d1": 1899,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -122,11 +122,11 @@
      462639,
      464427,
      466515,
-     468331
+     468414
     ],
-    "forks": 114476,
-    "issues": 1387,
-    "pushedAt": "2026-11-19T01:20:00Z",
+    "forks": 114503,
+    "issues": 1408,
+    "pushedAt": "2026-11-19T02:12:55Z",
     "createdAt": "2026-04-14T00:51:32Z",
     "stale": false,
     "suspect": false,
@@ -140,8 +140,8 @@
    {
     "repo": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 194048,
-    "d1": 858,
+    "stars": 194097,
+    "d1": 907,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -176,10 +176,10 @@
      191647,
      192278,
      193190,
-     194048
+     194097
     ],
-    "forks": 10922,
-    "issues": 260,
+    "forks": 10928,
+    "issues": 261,
     "pushedAt": "2026-10-29T11:59:31Z",
     "createdAt": "2026-06-12T00:52:37Z",
     "stale": false,
@@ -194,8 +194,8 @@
    {
     "repo": "nexu-io/openmotion",
     "url": "https://github.com/nexu-io/openmotion",
-    "stars": 11832,
-    "d1": 755,
+    "stars": 11858,
+    "d1": 781,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -230,11 +230,11 @@
      10016,
      10081,
      11077,
-     11832
+     11858
     ],
-    "forks": 1188,
+    "forks": 1189,
     "issues": 68,
-    "pushedAt": "2026-11-18T16:59:51Z",
+    "pushedAt": "2026-11-19T02:31:01Z",
     "createdAt": "2026-05-11T09:40:38Z",
     "stale": false,
     "suspect": false,
@@ -248,8 +248,8 @@
    {
     "repo": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
-    "stars": 112917,
-    "d1": 647,
+    "stars": 112951,
+    "d1": 681,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -284,10 +284,10 @@
      110941,
      111467,
      112270,
-     112917
+     112951
     ],
-    "forks": 6723,
-    "issues": 52,
+    "forks": 6724,
+    "issues": 54,
     "pushedAt": "2026-11-18T23:31:14Z",
     "createdAt": "2025-11-16T01:52:04Z",
     "stale": false,
@@ -302,8 +302,8 @@
    {
     "repo": "Leonxlnx/taste-skill",
     "url": "https://github.com/Leonxlnx/taste-skill",
-    "stars": 118440,
-    "d1": 628,
+    "stars": 118474,
+    "d1": 662,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -338,9 +338,9 @@
      116417,
      116996,
      117812,
-     118440
+     118474
     ],
-    "forks": 7926,
+    "forks": 7928,
     "issues": 14,
     "pushedAt": "2026-11-08T21:51:50Z",
     "createdAt": "2026-02-19T21:44:05Z",
@@ -356,8 +356,8 @@
    {
     "repo": "lemomo-ai/lemo-opuscar",
     "url": "https://github.com/lemomo-ai/lemo-opuscar",
-    "stars": 18348,
-    "d1": 465,
+    "stars": 18358,
+    "d1": 475,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -392,7 +392,7 @@
      16927,
      17332,
      17883,
-     18348
+     18358
     ],
     "forks": 2311,
     "issues": 0,
@@ -410,8 +410,8 @@
    {
     "repo": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
-    "stars": 197221,
-    "d1": 433,
+    "stars": 197243,
+    "d1": 455,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -446,10 +446,10 @@
      195536,
      196141,
      196788,
-     197221
+     197243
     ],
-    "forks": 23097,
-    "issues": 1558,
+    "forks": 23102,
+    "issues": 1560,
     "pushedAt": "2026-11-16T14:22:50Z",
     "createdAt": "2025-09-22T15:53:31Z",
     "stale": false,
@@ -464,8 +464,8 @@
    {
     "repo": "blader/humanizer",
     "url": "https://github.com/blader/humanizer",
-    "stars": 70835,
-    "d1": 418,
+    "stars": 70852,
+    "d1": 435,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -500,9 +500,9 @@
      69605,
      69966,
      70417,
-     70835
+     70852
     ],
-    "forks": 5559,
+    "forks": 5560,
     "issues": 7,
     "pushedAt": "2026-11-10T01:35:15Z",
     "createdAt": "2026-01-18T05:30:15Z",
@@ -518,8 +518,8 @@
    {
     "repo": "JuneYaooo/rea-video",
     "url": "https://github.com/JuneYaooo/rea-video",
-    "stars": 10701,
-    "d1": 377,
+    "stars": 10726,
+    "d1": 402,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -554,11 +554,11 @@
      9381,
      9763,
      10324,
-     10701
+     10726
     ],
-    "forks": 1585,
+    "forks": 1589,
     "issues": 6,
-    "pushedAt": "2026-11-18T07:47:42Z",
+    "pushedAt": "2026-11-19T02:21:17Z",
     "createdAt": "2026-10-29T16:15:01Z",
     "stale": false,
     "suspect": false,
@@ -572,8 +572,8 @@
    {
     "repo": "alibaba/open-code-review",
     "url": "https://github.com/alibaba/open-code-review",
-    "stars": 54176,
-    "d1": 369,
+    "stars": 54190,
+    "d1": 383,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -608,11 +608,11 @@
      52450,
      53064,
      53807,
-     54176
+     54190
     ],
-    "forks": 4482,
-    "issues": 343,
-    "pushedAt": "2026-11-18T13:43:50Z",
+    "forks": 4483,
+    "issues": 339,
+    "pushedAt": "2026-11-19T02:06:36Z",
     "createdAt": "2026-05-18T02:16:36Z",
     "stale": false,
     "suspect": false,
@@ -626,8 +626,8 @@
    {
     "repo": "google/elephant-goldfish-model",
     "url": "https://github.com/google/elephant-goldfish-model",
-    "stars": 21157,
-    "d1": 334,
+    "stars": 21169,
+    "d1": 346,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -662,7 +662,7 @@
      19976,
      20437,
      20823,
-     21157
+     21169
     ],
     "forks": 1570,
     "issues": 126,
@@ -680,8 +680,8 @@
    {
     "repo": "Vincentwei1021/video-shotcraft",
     "url": "https://github.com/Vincentwei1021/video-shotcraft",
-    "stars": 21327,
-    "d1": 292,
+    "stars": 21351,
+    "d1": 316,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -716,9 +716,9 @@
      20258,
      20678,
      21035,
-     21327
+     21351
     ],
-    "forks": 1967,
+    "forks": 1968,
     "issues": 5,
     "pushedAt": "2026-11-18T16:11:19Z",
     "createdAt": "2026-07-19T11:44:41Z",
@@ -734,8 +734,8 @@
    {
     "repo": "cathrynlavery/diagram-design",
     "url": "https://github.com/cathrynlavery/diagram-design",
-    "stars": 68217,
-    "d1": 276,
+    "stars": 68238,
+    "d1": 297,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -770,7 +770,7 @@
      67472,
      67676,
      67941,
-     68217
+     68238
     ],
     "forks": 4583,
     "issues": 36,
@@ -788,8 +788,8 @@
    {
     "repo": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
-    "stars": 118954,
-    "d1": 268,
+    "stars": 118962,
+    "d1": 276,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -824,9 +824,9 @@
      118068,
      118379,
      118686,
-     118954
+     118962
     ],
-    "forks": 12392,
+    "forks": 12393,
     "issues": 118,
     "pushedAt": "2026-11-18T20:06:38Z",
     "createdAt": "2026-02-15T20:20:26Z",
@@ -846,8 +846,8 @@
    {
     "repo": "erkamyaman/rust-anything",
     "url": "https://github.com/erkamyaman/rust-anything",
-    "stars": 3390,
-    "d1": 1897,
+    "stars": 3462,
+    "d1": 1969,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -882,10 +882,10 @@
      null,
      null,
      1493,
-     3390
+     3462
     ],
-    "forks": 272,
-    "issues": 7,
+    "forks": 279,
+    "issues": 8,
     "pushedAt": "2026-11-18T21:09:57Z",
     "createdAt": "2026-11-16T12:10:36Z",
     "stale": false,
@@ -939,7 +939,7 @@
      1022,
      1049
     ],
-    "forks": 125,
+    "forks": 126,
     "issues": 24,
     "pushedAt": "2026-11-17T12:54:10Z",
     "createdAt": "2026-11-07T01:36:28Z",
@@ -956,8 +956,8 @@
    {
     "repo": "Dodaios/ste80-humanizer",
     "url": "https://github.com/Dodaios/ste80-humanizer",
-    "stars": 882,
-    "d1": 115,
+    "stars": 891,
+    "d1": 124,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -992,7 +992,7 @@
      707,
      747,
      767,
-     882
+     891
     ],
     "forks": 63,
     "issues": 0,
@@ -1066,8 +1066,8 @@
    {
     "repo": "boringmarketer/boring-marketing-skills",
     "url": "https://github.com/boringmarketer/boring-marketing-skills",
-    "stars": 662,
-    "d1": 120,
+    "stars": 668,
+    "d1": 126,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1102,9 +1102,9 @@
      0,
      184,
      542,
-     662
+     668
     ],
-    "forks": 247,
+    "forks": 248,
     "issues": 1,
     "pushedAt": "2026-11-17T22:53:58Z",
     "createdAt": "2026-11-16T15:09:46Z",
@@ -1121,8 +1121,8 @@
    {
     "repo": "kociden/sakurai-skill",
     "url": "https://github.com/kociden/sakurai-skill",
-    "stars": 459,
-    "d1": 29,
+    "stars": 460,
+    "d1": 30,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1157,7 +1157,7 @@
      364,
      380,
      430,
-     459
+     460
     ],
     "forks": 39,
     "issues": 0,
@@ -1561,8 +1561,8 @@
    {
     "repo": "diego3g/craft",
     "url": "https://github.com/diego3g/craft",
-    "stars": 260,
-    "d1": 69,
+    "stars": 262,
+    "d1": 71,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -1597,7 +1597,7 @@
      57,
      107,
      191,
-     260
+     262
     ],
     "forks": 14,
     "issues": 0,
@@ -2148,7 +2148,7 @@
      2238
     ],
     "forks": 575,
-    "issues": 46,
+    "issues": 45,
     "pushedAt": "2026-11-18T21:54:44Z",
     "createdAt": "2013-10-31T02:58:52Z",
     "stale": false,
@@ -2219,8 +2219,8 @@
    {
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea",
-    "stars": 468331,
-    "d1": 1816,
+    "stars": 468414,
+    "d1": 1899,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2255,11 +2255,11 @@
      462639,
      464427,
      466515,
-     468331
+     468414
     ],
-    "forks": 114476,
-    "issues": 1387,
-    "pushedAt": "2026-11-19T01:20:00Z",
+    "forks": 114503,
+    "issues": 1408,
+    "pushedAt": "2026-11-19T02:12:55Z",
     "createdAt": "2026-04-14T00:51:32Z",
     "stale": false,
     "suspect": false,
@@ -2274,8 +2274,8 @@
    {
     "repo": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
-    "stars": 197221,
-    "d1": 433,
+    "stars": 197243,
+    "d1": 455,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2310,10 +2310,10 @@
      195536,
      196141,
      196788,
-     197221
+     197243
     ],
-    "forks": 23097,
-    "issues": 1558,
+    "forks": 23102,
+    "issues": 1560,
     "pushedAt": "2026-11-16T14:22:50Z",
     "createdAt": "2025-09-22T15:53:31Z",
     "stale": false,
@@ -2329,8 +2329,8 @@
    {
     "repo": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 194048,
-    "d1": 858,
+    "stars": 194097,
+    "d1": 907,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2365,10 +2365,10 @@
      191647,
      192278,
      193190,
-     194048
+     194097
     ],
-    "forks": 10922,
-    "issues": 260,
+    "forks": 10928,
+    "issues": 261,
     "pushedAt": "2026-10-29T11:59:31Z",
     "createdAt": "2026-06-12T00:52:37Z",
     "stale": false,
@@ -2384,8 +2384,8 @@
    {
     "repo": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
-    "stars": 118954,
-    "d1": 268,
+    "stars": 118962,
+    "d1": 276,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2420,9 +2420,9 @@
      118068,
      118379,
      118686,
-     118954
+     118962
     ],
-    "forks": 12392,
+    "forks": 12393,
     "issues": 118,
     "pushedAt": "2026-11-18T20:06:38Z",
     "createdAt": "2026-02-15T20:20:26Z",
@@ -2439,8 +2439,8 @@
    {
     "repo": "Leonxlnx/taste-skill",
     "url": "https://github.com/Leonxlnx/taste-skill",
-    "stars": 118440,
-    "d1": 628,
+    "stars": 118474,
+    "d1": 662,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2475,9 +2475,9 @@
      116417,
      116996,
      117812,
-     118440
+     118474
     ],
-    "forks": 7926,
+    "forks": 7928,
     "issues": 14,
     "pushedAt": "2026-11-08T21:51:50Z",
     "createdAt": "2026-02-19T21:44:05Z",
@@ -2494,8 +2494,8 @@
    {
     "repo": "paperclipai/paperclip",
     "url": "https://github.com/paperclipai/paperclip",
-    "stars": 114816,
-    "d1": 220,
+    "stars": 114822,
+    "d1": 226,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2530,11 +2530,11 @@
      114196,
      114390,
      114596,
-     114816
+     114822
     ],
-    "forks": 19064,
-    "issues": 6922,
-    "pushedAt": "2026-11-19T01:25:45Z",
+    "forks": 19067,
+    "issues": 6920,
+    "pushedAt": "2026-11-19T02:25:40Z",
     "createdAt": "2026-03-02T15:01:51Z",
     "stale": false,
     "suspect": false,
@@ -2549,8 +2549,8 @@
    {
     "repo": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
-    "stars": 112917,
-    "d1": 647,
+    "stars": 112951,
+    "d1": 681,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2585,10 +2585,10 @@
      110941,
      111467,
      112270,
-     112917
+     112951
     ],
-    "forks": 6723,
-    "issues": 52,
+    "forks": 6724,
+    "issues": 54,
     "pushedAt": "2026-11-18T23:31:14Z",
     "createdAt": "2025-11-16T01:52:04Z",
     "stale": false,
@@ -2604,8 +2604,8 @@
    {
     "repo": "nexu-io/open-design",
     "url": "https://github.com/nexu-io/open-design",
-    "stars": 108342,
-    "d1": 210,
+    "stars": 108351,
+    "d1": 219,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2640,10 +2640,10 @@
      107813,
      107966,
      108132,
-     108342
+     108351
     ],
     "forks": 12296,
-    "issues": 1427,
+    "issues": 1421,
     "pushedAt": "2026-11-19T01:09:09Z",
     "createdAt": "2026-04-28T04:25:20Z",
     "stale": false,
@@ -2659,8 +2659,8 @@
    {
     "repo": "tt-a1i/archify",
     "url": "https://github.com/tt-a1i/archify",
-    "stars": 97755,
-    "d1": 246,
+    "stars": 97775,
+    "d1": 266,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2695,9 +2695,9 @@
      96942,
      97203,
      97509,
-     97755
+     97775
     ],
-    "forks": 6676,
+    "forks": 6678,
     "issues": 369,
     "pushedAt": "2026-11-19T00:44:55Z",
     "createdAt": "2026-04-15T05:27:37Z",
@@ -2714,8 +2714,8 @@
    {
     "repo": "opencv/opencv",
     "url": "https://github.com/opencv/opencv",
-    "stars": 91635,
-    "d1": 14,
+    "stars": 91636,
+    "d1": 15,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2750,9 +2750,9 @@
      91590,
      91600,
      91621,
-     91635
+     91636
     ],
-    "forks": 57106,
+    "forks": 57107,
     "issues": 2993,
     "pushedAt": "2026-11-18T11:45:03Z",
     "createdAt": "2012-07-19T09:40:17Z",
@@ -2771,8 +2771,8 @@
    {
     "repo": "morluto/rea",
     "url": "https://github.com/morluto/rea",
-    "stars": 468331,
-    "d1": 1816,
+    "stars": 468414,
+    "d1": 1899,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2807,11 +2807,11 @@
      462639,
      464427,
      466515,
-     468331
+     468414
     ],
-    "forks": 114476,
-    "issues": 1387,
-    "pushedAt": "2026-11-19T01:20:00Z",
+    "forks": 114503,
+    "issues": 1408,
+    "pushedAt": "2026-11-19T02:12:55Z",
     "createdAt": "2026-04-14T00:51:32Z",
     "stale": false,
     "suspect": false,
@@ -2826,8 +2826,8 @@
    {
     "repo": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
-    "stars": 197221,
-    "d1": 433,
+    "stars": 197243,
+    "d1": 455,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2862,10 +2862,10 @@
      195536,
      196141,
      196788,
-     197221
+     197243
     ],
-    "forks": 23097,
-    "issues": 1558,
+    "forks": 23102,
+    "issues": 1560,
     "pushedAt": "2026-11-16T14:22:50Z",
     "createdAt": "2025-09-22T15:53:31Z",
     "stale": false,
@@ -2881,8 +2881,8 @@
    {
     "repo": "DietrichGebert/ponytail",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "stars": 194048,
-    "d1": 858,
+    "stars": 194097,
+    "d1": 907,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2917,10 +2917,10 @@
      191647,
      192278,
      193190,
-     194048
+     194097
     ],
-    "forks": 10922,
-    "issues": 260,
+    "forks": 10928,
+    "issues": 261,
     "pushedAt": "2026-10-29T11:59:31Z",
     "createdAt": "2026-06-12T00:52:37Z",
     "stale": false,
@@ -2936,8 +2936,8 @@
    {
     "repo": "opencv/opencv",
     "url": "https://github.com/opencv/opencv",
-    "stars": 91635,
-    "d1": 14,
+    "stars": 91636,
+    "d1": 15,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -2972,9 +2972,9 @@
      91590,
      91600,
      91621,
-     91635
+     91636
     ],
-    "forks": 57106,
+    "forks": 57107,
     "issues": 2993,
     "pushedAt": "2026-11-18T11:45:03Z",
     "createdAt": "2012-07-19T09:40:17Z",
@@ -2991,8 +2991,8 @@
    {
     "repo": "roboflow/supervision",
     "url": "https://github.com/roboflow/supervision",
-    "stars": 51671,
-    "d1": 10,
+    "stars": 51672,
+    "d1": 11,
     "d7": null,
     "d30": null,
     "pct7": null,
@@ -3027,7 +3027,7 @@
      51637,
      51644,
      51661,
-     51671
+     51672
     ],
     "forks": 4959,
     "issues": 116,
@@ -3306,7 +3306,7 @@
      2238
     ],
     "forks": 575,
-    "issues": 46,
+    "issues": 45,
     "pushedAt": "2026-11-18T21:54:44Z",
     "createdAt": "2013-10-31T02:58:52Z",
     "stale": false,
@@ -3689,6 +3689,17 @@
     "easy": "Google이 만든 Gemma 3 기반 모델로, 의료 영상과 글을 함께 보고 대화형으로 답합니다. 흉부 X-ray, 피부, 병리 영상 등을 해석하거나 의료 질의응답 기능을 시험할 때 씁니다. 영상 판독 보조 기능을 연구하는 팀이 참고할 수 있습니다."
    },
    {
+    "repo": "Prior-Labs/tabpfn_3_5",
+    "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5",
+    "likes": 156,
+    "downloads": 18979,
+    "trending": 14,
+    "task": "tabular-classification",
+    "createdAt": "2026-09-09T16:28:48.000Z",
+    "description": "표 형식 데이터를 분류하는 TabPFN 사전학습 모델",
+    "easy": "표(테이블) 형태의 데이터를 따로 오래 학습시키지 않고도 분류해 주는 사전학습 모델입니다. 화학, 금융, 의료 등 엑셀 같은 데이터를 빠르게 예측해 보고 싶을 때 씁니다."
+   },
+   {
     "repo": "gevaertlab/MANTA-27B",
     "url": "https://huggingface.co/gevaertlab/MANTA-27B",
     "likes": 18,
@@ -3700,20 +3711,9 @@
     "easy": "영상과 텍스트를 함께 다루며 의료 분류와 의사결정을 돕는 27B 규모의 AI 모델입니다. 방사선, 병리 데이터를 바탕으로 분류하거나 예측 신뢰도를 보정하는 연구에 씁니다. 설명이 거의 없어 사용 전 모델 문서와 라이선스를 확인해야 합니다."
    },
    {
-    "repo": "Prior-Labs/tabpfn_3_5",
-    "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5",
-    "likes": 155,
-    "downloads": 18979,
-    "trending": 13,
-    "task": "tabular-classification",
-    "createdAt": "2026-09-09T16:28:48.000Z",
-    "description": "표 형식 데이터를 분류하는 TabPFN 사전학습 모델",
-    "easy": "표(테이블) 형태의 데이터를 따로 오래 학습시키지 않고도 분류해 주는 사전학습 모델입니다. 화학, 금융, 의료 등 엑셀 같은 데이터를 빠르게 예측해 보고 싶을 때 씁니다."
-   },
-   {
     "repo": "google/medgemma-4b-it",
     "url": "https://huggingface.co/google/medgemma-4b-it",
-    "likes": 1159,
+    "likes": 1160,
     "downloads": 465891,
     "trending": 10,
     "task": "image-text-to-text",
