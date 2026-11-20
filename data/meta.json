@@ -886,5 +886,89 @@
   "easy": "Claude 같은 AI 도구가 FDA 의약품 정보, PubMed 논문, 임상시험, ICD-10 코드, BMI 계산 등을 직접 조회할 수 있게 해 주는 서버입니다. 의료 정보를 AI에게 물어보며 찾아보거나 의료 AI 도구를 시험해 볼 때 쓰며, DICOM 메타데이터 조회 기능이 있어 의료영상(DICOM·PACS) 개발팀이 AI 연동을 검토할 때 참고할 만합니다.",
   "exclude": false,
   "at": "2026-11-19"
+ },
+ "Bodila51/gtavi-claudecode": {
+  "description": "GTA 6 방송을 세로 숏폼 클립으로 만드는 Claude Code 플러그인",
+  "easy": "GTA 6 스트림에서 하이라이트를 찾아 자막과 훅을 넣은 9:16 세로 클립을 만들어 주는 Claude Code 플러그인입니다. 조회수에 따라 보수를 주는 클리핑 캠페인에 올릴 영상을 만들 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "ImprintLab/Medical-SAM2": {
+  "description": "SAM 2 기반 2D·3D 의료영상 분할 모델",
+  "easy": "Meta의 SAM 2를 의료영상에 맞게 확장해, 3D 영상을 비디오처럼 한 장씩 넘기며 장기나 병변 영역을 자동으로 분할하는 모델입니다. CT·MRI 같은 영상에서 분할 연구를 하거나 결과를 비교할 때 씁니다. DICOM 영상을 다루는 팀이라면 자동 분할 기능을 검토할 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "MITK/MITK": {
+  "description": "대화형 의료영상 처리 소프트웨어 개발용 C++ 툴킷",
+  "easy": "ITK와 VTK에 애플리케이션 프레임워크를 더한, 의료영상 처리 프로그램 개발용 오픈소스 C++ 툴킷입니다. 영상 뷰어나 분석 도구를 처음부터 만들지 않고 기반 위에서 빠르게 개발할 때 씁니다. DICOM과 C++ 개발팀에게 구조나 기능을 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "caiyuanhao1998/SAX-NeRF": {
+  "description": "희소 시점 X-ray 3D 복원·CT 재구성 도구 모음 (CVPR 2024)",
+  "easy": "적은 수의 X-ray 투영 영상만으로 3D 구조를 복원하고 새로운 시점의 영상을 만들어 내는 연구용 툴박스입니다. NeRF 등 12가지 방법을 한곳에서 비교하며 CT 재구성을 실험할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "mahmoodlab/CONCH": {
+  "description": "병리 영상용 비전-언어 파운데이션 모델 (Nature Medicine)",
+  "easy": "병리 슬라이드 이미지와 텍스트를 함께 학습한 AI 모델로, 영상 분류, 캡션 생성, 이미지·텍스트 검색 등에 활용할 수 있습니다. 병리 영상 분석 연구를 시작할 때 사전학습 모델로 가져다 쓰기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "icon-lab/SynDiff": {
+  "description": "적대적 확산 모델 기반 비지도 의료영상 변환 PyTorch 구현",
+  "easy": "확산 모델과 적대적 학습으로 MRI의 T1 영상을 T2 영상으로 바꾸는 식의 의료영상 변환을 하는 PyTorch 코드입니다. 한 가지 촬영 방식만 있을 때 다른 방식의 영상을 합성해 보는 연구에 씁니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "junforge-dev/voxplane": {
+  "description": "CT·MRI·PET/CT용 크로스플랫폼 DICOM 뷰어, AI 분할 지원",
+  "easy": "CT, MR, PET 영상을 보고 MPR, 3D, 영상 융합, 측정, 분할까지 할 수 있는 DICOM 뷰어입니다. TotalSegmentator로 PC 안에서 장기를 자동 분할할 수 있고, DICOMweb과 DIMSE로 PACS 연동도 됩니다. DICOM·PACS 팀이 기능과 화면 구성을 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "qurit/rt-utils": {
+  "description": "DICOM RTStruct 생성·편집용 경량 Python 라이브러리",
+  "easy": "방사선치료 계획의 윤곽 정보(RT Structure Set)를 읽어 NumPy 마스크로 바꾸고, 반대로 AI가 만든 마스크를 RTStruct로 저장해 주는 라이브러리입니다. 분할 모델 결과를 치료계획 시스템이나 뷰어에서 열어야 할 때 씁니다. DICOM 개발팀이라면 RTStruct 처리 방식을 참고할 만합니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "mercure-imaging/mercure": {
+  "description": "웹 UI로 DICOM을 자동 전송·처리하는 오케스트레이터",
+  "easy": "DICOM 영상을 받아 규칙에 따라 다른 곳으로 보내거나 Docker 모듈로 AI 처리를 자동 실행해 주는 도구입니다. 연구나 병원에서 영상 라우팅과 AI 분석 파이프라인이 필요할 때 씁니다. PACS·DICOM 개발팀이 라우팅 구조를 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "openradx/adit": {
+  "description": "웹과 DICOMweb API로 DICOM을 주고받는 전송 도구",
+  "easy": "예전 방식(DIMSE)만 지원하는 PACS와 최신 웹 API 사이를 이어 주는 변환 서버입니다. 웹이나 스크립트로 PACS 영상을 조회하고 가져와야 할 때 씁니다. PACS 연동을 다루는 개발팀에게 참고가 됩니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "amrshadid/go-dicom": {
+  "description": "CGO 없이 쓰는 순수 Go DICOM 라이브러리와 CLI",
+  "easy": "Go 언어로 DICOM 파일을 읽고 쓰며 C-STORE, C-FIND 같은 네트워크 통신까지 처리하는 라이브러리입니다. 익명화나 DICOMweb 서버·클라이언트가 필요한 Go 기반 의료 시스템을 만들 때 씁니다. C++/MFC 팀은 DIMSE 동작을 비교해 볼 참고 자료로 볼 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "yirmish/NEMA_IQ_Analyzer": {
+  "description": "PET DICOM으로 NEMA 영상 품질을 분석하는 HTML 도구",
+  "easy": "PET 영상의 NEMA NU 2 화질 시험(팬텀 기반)을 브라우저에서 분석해 보고서를 만들어 주는 단일 HTML 파일입니다. 설치나 업로드 없이 장비의 화질 점검 결과를 계산할 때 씁니다. 의료영상 QA 도구를 만드는 팀에 참고가 됩니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "3xiaoshayu/LSA-SSViT": {
+  "description": "유방촬영 다중 과제 선별용 LSA-SSViT 공식 구현",
+  "easy": "DINOv3 기반 비전 모델을 유방촬영 영상에 맞게 조정해 BI-RADS 판정, 종괴와 석회화 여부를 예측하는 연구 코드입니다. 논문 결과를 재현하거나 의료영상 AI 학습 방법을 참고할 때 씁니다. 영상 데이터는 포함되어 있지 않습니다.",
+  "exclude": false,
+  "at": "2026-11-20"
+ },
+ "CobuildX-AI/cbx-healthcare-speech-to-text-0.6B": {
+  "description": "의료 분야용 영어 음성 인식 모델(LoRA)",
+  "easy": "의료·헬스케어 용어에 맞춰 조정한 약 0.6B 규모의 영어 음성 인식(ASR) 모델입니다. 진료 대화나 의료 음성을 텍스트로 옮기는 기능을 시험할 때 씁니다. README가 비어 있어 자세한 사용법은 확인이 필요합니다.",
+  "exclude": false,
+  "at": "2026-11-20"
  }
 }
