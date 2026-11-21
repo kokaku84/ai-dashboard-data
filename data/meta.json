@@ -1042,5 +1042,101 @@
   "easy": "사진 보정과 레이어 편집을 한곳에서 한다고 소개하지만, PowerShell 스크립트를 인터넷에서 받아 실행하는 설치 방식입니다. 가상화폐 후원 주소와 홍보성 문구가 있어 악성코드 유포용 저장소로 의심되니 실행하지 않는 편이 안전합니다.",
   "exclude": true,
   "at": "2026-11-21"
+ },
+ "shinyobjectz/raea": {
+  "description": "AI에게 말하면 영상·3D·게임을 내 GPU로 렌더링하는 엔진",
+  "easy": "React와 TypeScript 코드로 영상, 모션그래픽, 3D, 게임을 만들고 내 컴퓨터의 GPU로 렌더링하는 엔진과 데스크톱 앱입니다. Claude 같은 AI에게 만들고 싶은 것을 말로 설명하면 AI가 코드를 작성해 결과물을 뽑아 줄 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "gamedev-skills/awesome-gamedev-agent-skills": {
+  "description": "AI 코딩 에이전트용 게임 개발 스킬 79개 모음",
+  "easy": "Godot, Unity, Unreal 등 12개 엔진에 맞는 게임 개발 지침 79개를 AI 에이전트에게 설치해 주는 모음입니다. 만들려는 게임을 설명하면 라우터가 알맞은 스킬 2~3개를 골라 불러오므로, AI로 게임 코드를 짤 때 정확도를 높이고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "alchaincyf/huashu-design": {
+  "description": "한 줄 요청으로 웹·앱 시안·PPT 디자인을 만드는 AI 스킬",
+  "easy": "Claude Code, Codex, Cursor 같은 AI 에이전트에 설치하면 한 문장 요청으로 웹페이지, 앱 프로토타입, 편집 가능한 PPT, 인포그래픽, 애니메이션을 만들어 주는 디자인 스킬입니다. 디자이너 없이 빠르게 시안이나 발표 자료가 필요할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "danielwh2/sprite-stacking": {
+  "description": "도트 그림 4면을 돌려볼 수 있는 가짜 3D로 바꾸는 스킬",
+  "easy": "위, 옆, 앞, 뒤 네 방향의 픽셀 아트를 층층이 쌓아 회전하는 가짜 3D 스프라이트로 만들어 주는 AI 에이전트 스킬입니다. 2D 게임에 입체감 있는 자동차나 나무 같은 소품을 넣고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "Visionservice117/lightroom-classic-belelan-photo-workflow": {
+  "description": "Lightroom 도구를 내세워 PowerShell 설치를 유도하는 의심 저장소",
+  "easy": "사진 워크플로 도구처럼 소개하지만, 실체가 불분명한 PowerShell 스크립트를 내려받아 실행하게 만드는 전형적인 악성코드 유포형 저장소로 보입니다. 후원용 암호화폐 주소도 붙어 있으니 실행하거나 설치하지 않는 편이 안전합니다.",
+  "exclude": true,
+  "at": "2026-11-21"
+ },
+ "rugza/adobe-photoshop-devemar-photo-editor": {
+  "description": "Photoshop 이름을 내세워 PowerShell 설치를 유도하는 의심 저장소",
+  "easy": "Adobe Photoshop 이름을 가져다 쓰고 PowerShell 설정 버튼으로 스크립트를 실행하게 하는 구조라 악성코드나 크랙 유포용일 가능성이 높습니다. 정식 Adobe 제품이 아니므로 업무 PC에서 실행하지 마세요.",
+  "exclude": true,
+  "at": "2026-11-21"
+ },
+ "essatufail/substance-3d-sampler-callona": {
+  "description": "Substance 3D 이름을 내세워 스크립트 실행을 유도하는 의심 저장소",
+  "easy": "Substance 3D Sampler 계열 도구처럼 보이게 하지만, 스크립트를 내려받아 실행하게 하는 구조와 암호화폐 후원 주소 때문에 악성 배포물로 의심됩니다. 정식 제품이 아니니 설치하지 않는 편이 좋습니다.",
+  "exclude": true,
+  "at": "2026-11-21"
+ },
+ "EJ-C07/adobe-bridge-varvara": {
+  "description": "Adobe Bridge 이름을 내세워 스크립트 실행을 유도하는 의심 저장소",
+  "easy": "Adobe Bridge 자산 관리 도구를 사칭하는 듯한 설명과 PowerShell 설치 버튼, 암호화폐 후원 주소가 있어 악성코드 유포형으로 의심됩니다. 정식 Adobe 제품이 아니니 실행하지 마세요.",
+  "exclude": true,
+  "at": "2026-11-21"
+ },
+ "patrick-llgc/Learning-Deep-Learning": {
+  "description": "딥러닝·머신러닝 논문을 읽고 정리한 노트 모음",
+  "easy": "딥러닝과 머신러닝 논문을 읽고 요약해 둔 개인 학습 노트 저장소입니다. 컴퓨터 비전이나 자율주행 분야의 논문 흐름을 훑고 싶을 때 참고하면 좋습니다. 의료영상 관련 논문 정리도 일부 있어 AI 기술 동향을 파악하는 데 도움이 됩니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "rordenlab/dcm2niix": {
+  "description": "DICOM 영상을 NIfTI 형식으로 바꿔 주는 변환 도구",
+  "easy": "병원 장비가 만드는 DICOM 영상을 뇌과학 연구에서 쓰는 단순한 NIfTI 형식으로 바꿔 주는 C++ 프로그램입니다. MRI 같은 뇌영상 데이터를 연구용으로 분석하기 전에 형식을 맞출 때 씁니다. DICOM을 다루는 C++ 개발팀이라면 제조사별 DICOM 해석 차이를 처리하는 방식을 참고할 만합니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "rmaphoh/RETFound": {
+  "description": "망막 영상용 의료 AI 파운데이션 모델 모음",
+  "easy": "망막(눈 안쪽) 사진 160만 장으로 미리 학습시킨 의료 AI 모델과 활용 코드입니다. 안과 질환을 찾아내는 AI를 만들 때 처음부터 학습하지 않고 이 모델을 가져와 목적에 맞게 조정해 쓸 수 있습니다. 의료영상 AI 연동을 검토하는 팀에게 참고 사례가 됩니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "caiyuanhao1998/X-Gaussian": {
+  "description": "X-ray 새 시점 영상 합성을 위한 Gaussian Splatting",
+  "easy": "여러 방향에서 찍은 X-ray 영상으로 새로운 각도의 X-ray 영상을 빠르게 만들어 내는 연구 코드입니다(ECCV 2024). CT 재구성이나 3D 복원 연구에서 속도와 품질을 높이는 방법을 시험할 때 쓰입니다. 의료영상 3D 재구성 기술을 살펴보는 팀에게 참고가 됩니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "AlizaMedicalImaging/AlizaMS": {
+  "description": "Qt 기반의 오픈소스 DICOM 뷰어",
+  "easy": "DICOM 영상을 열어 2D·3D로 보여 주는 C++/Qt 기반 뷰어 프로그램입니다. 폴더나 DICOMDIR을 열어 시리즈를 고르고, 볼륨 렌더링이나 MPR(다단면 재구성)으로 확인할 때 씁니다. PACS·뷰어를 만드는 C++ 개발팀이 기능과 구조를 비교해 보기에 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "rordenlab/MRIcroGL": {
+  "description": "NIfTI·DICOM용 GLSL 볼륨 렌더링 뷰어",
+  "easy": "NIfTI, DICOM 같은 의료·뇌영상을 3D 볼륨으로 보여 주는 크로스플랫폼 뷰어입니다. 드래그 앤 드롭으로 열 수 있고 스크립트로 자동화도 가능해 뇌영상을 빠르게 확인할 때 유용합니다. 볼륨 렌더링을 구현하는 DICOM 개발팀이 OpenGL 활용 방식을 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "uaanchorage/GSoC": {
+  "description": "알래스카대 GSoC 오픈소스 프로젝트 아이디어 모음",
+  "easy": "알래스카 대학 연구자들이 Google Summer of Code에서 참가자에게 제안하는 오픈소스 프로젝트 아이디어 목록입니다. 의료영상, 머신러닝, 네트워크 등 다양한 주제가 있어 기여할 프로젝트를 찾을 때 참고합니다. DICOM 관련 주제도 포함되어 있습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "denysdovhan/voxel-viewer": {
+  "description": "브라우저에서 보는 치과 CBCT·DICOM 뷰어",
+  "easy": "치과 CBCT 스캔 폴더나 DICOM 파일을 웹 브라우저에서 바로 열어 MPR 단면과 3D 미리보기로 보여 주는 도구입니다. 전용 프로그램 없이 Mac이나 모바일에서 스캔을 확인하고 싶을 때 씁니다. 진단용이 아닌 취미 프로젝트이지만, 웹 기반 DICOM 뷰어 구조를 참고하기에 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
  }
 }
