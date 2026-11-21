@@ -976,5 +976,59 @@
   "easy": "CT나 MRI로 찍은 2D DICOM 영상을 쌓아 3D 모델로 만들어 주는 Python 기반 프로그램입니다. 장기나 뼈를 분할하고 길이·각도를 재거나 STL 등으로 내보낼 때 쓰며, DICOM 뷰어·PACS 개발팀이 3D 재구성과 분할 기능을 참고하기에 좋습니다.",
   "exclude": false,
   "at": "2026-11-20"
+ },
+ "patch-gg/pixelfx": {
+  "description": "코드로 만든 픽셀아트 이펙트 244종과 제작용 Claude Code 스킬",
+  "easy": "불, 폭발, 마법, 날씨 같은 픽셀아트 효과를 작은 JavaScript 코드로 모아 둔 라이브러리입니다. 브라우저 게임에 넣거나 스프라이트 시트로 내보낼 때 쓰고, 스킬로 새 효과도 만들 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "mankidev/antialgorithm": {
+  "description": "AI의 뻔한 첫 답을 피하게 하는 창작용 에이전트 스킬",
+  "easy": "AI가 이름, 아이디어, 로고, 포스터를 만들 때 가장 평범한 첫 결과를 먼저 짚고 거기서 벗어나게 돕는 스킬입니다. Claude Code나 Codex 같은 에이전트에 설치해서, 결과물이 다 비슷비슷할 때 쓰면 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "AnjaliShaw12/darktable-merlorin": {
+  "description": "darktable 변형 배포판을 내세운 의심스러운 Windows 저장소",
+  "easy": "RAW 사진 편집 프로그램 darktable의 배포판이라고 소개하지만, PowerShell 설치 버튼과 암호화폐 후원 주소가 있어 악성코드 유포용 가짜 저장소로 의심됩니다. 공식 darktable이 아니므로 설치하지 않는 것이 안전합니다.",
+  "exclude": true,
+  "at": "2026-11-21"
+ },
+ "dickoyudha-netizen/adobe-firefly-image-creator": {
+  "description": "Adobe Firefly를 내세운 의심스러운 PowerShell 설치 저장소",
+  "easy": "텍스트로 이미지를 만드는 Adobe Firefly 웹앱이라고 소개하지만, 비공식이며 PowerShell 설치 버튼과 암호화폐 후원 주소가 있어 악성코드 유포가 의심됩니다. Firefly는 Adobe 공식 사이트에서만 쓰세요.",
+  "exclude": true,
+  "at": "2026-11-21"
+ },
+ "MIC-DKFZ/nninteractive-agent": {
+  "description": "말로 시키면 3D 의료영상을 분할하는 nnInteractive AI 에이전트 도구",
+  "easy": "\"갈비뼈를 하나씩 분할해줘\"처럼 글로 지시하면 에이전트가 nnInteractive로 CT·MRI 같은 영상을 분할하고 결과를 확인·수정합니다. MCP 서버와 스킬 형태라 Claude Code 등에서 쓰며, 의료영상(DICOM·PACS) 팀이 분할 작업을 자동화할 때 참고할 만합니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "gereoffy/jpeg-nitro": {
+  "description": "멀티스레드로 매우 빠른 JPEG·PNG·HEIC·PSD 이미지 뷰어",
+  "easy": "여러 CPU 코어로 이미지를 동시에 디코딩해 사진을 아주 빠르게 열어 주는 C 기반 뷰어로, macOS·Windows·Linux에서 쓸 수 있습니다. 사진이나 스캔본을 빠르게 넘겨 볼 때 쓰고, DICOM 같은 의료영상 뷰어의 디코딩 속도 개선 아이디어를 얻기에도 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "agr78/Pathology-Randomizer": {
+  "description": "병변을 무작위로 합성해 학습하는 뇌 MRI 병변 탐지 PathoDraw",
+  "easy": "실제 환자 영상 없이 합성 영상만으로 뇌 MRI 신경망을 학습해 뇌졸중, 신경교종, 백질 병변을 찾아내는 연구 코드입니다. 환자 데이터가 부족한 상황에서 병변 탐지, 초해상도, 정합을 실험할 때 쓰며, 의료영상 AI 연구에 참고할 만합니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "droidgren/DCST4": {
+  "description": "가짜 DICOM 영상을 만들어 PACS를 시험하는 Windows 도구",
+  "easy": "실제 장비처럼 보이는 테스트용 DICOM 영상을 만들어 C-STORE로 PACS에 보내고, 저장·조회·검색과 부하 성능을 점검하는 도구입니다. PACS나 DICOM Storage SCP를 개발하거나 도입할 때 쓰며, DICOM·PACS 개발팀에 바로 도움이 됩니다.",
+  "exclude": false,
+  "at": "2026-11-21"
+ },
+ "OpenMed/EmbeddingGemma2-BiomedicalEvidence-270M-v2": {
+  "description": "생의학 근거 검색용 2.7억 파라미터 문장 임베딩 모델",
+  "easy": "글을 숫자 벡터로 바꿔 의미가 비슷한 문서나 질문을 찾게 해 주는 의학·생의학 특화 임베딩 모델입니다. 의학 논문 검색, 건강 질의응답, 시맨틱 검색을 만들 때 쓰며, 의료영상 팀이라면 판독 소견이나 리포트 텍스트를 검색하는 기능에 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-21"
  }
 }
