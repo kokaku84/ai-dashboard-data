@@ -1138,5 +1138,23 @@
   "easy": "치과 CBCT 스캔 폴더나 DICOM 파일을 웹 브라우저에서 바로 열어 MPR 단면과 3D 미리보기로 보여 주는 도구입니다. 전용 프로그램 없이 Mac이나 모바일에서 스캔을 확인하고 싶을 때 씁니다. 진단용이 아닌 취미 프로젝트이지만, 웹 기반 DICOM 뷰어 구조를 참고하기에 좋습니다.",
   "exclude": false,
   "at": "2026-11-21"
+ },
+ "JimLiu/open-artifact": {
+  "description": "코딩 에이전트가 만든 슬라이드·디자인·문서를 로컬에서 편집하는 도구",
+  "easy": "AI 코딩 에이전트가 슬라이드, UI 디자인, 문서, 대시보드 등을 일반 파일로 만들면 로컬 페이지에서 열어 고치고 댓글을 달고 내보낼 수 있게 해 줍니다. 에이전트에게 결과물을 시각적으로 만들게 한 뒤 사람이 직접 다듬어 다시 피드백을 보내고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-22"
+ },
+ "cybershade-3/adobe-photoshop-avelora-photo-editor": {
+  "description": "Photoshop 관련 편집 도구를 내세운 의심스러운 PowerShell 저장소",
+  "easy": "Photoshop 편집 자동화 도구라고 소개하지만, 실제로는 PowerShell 실행과 암호화폐 후원 주소만 강조하는 전형적인 스팸·악성 배포형 README입니다. 출처가 불분명한 스크립트를 내려받아 실행할 위험이 있으니 사용하지 않는 것이 좋습니다.",
+  "exclude": true,
+  "at": "2026-11-22"
+ },
+ "nestjs/agent-skills": {
+  "description": "NestJS 개발을 돕는 코딩 에이전트용 공식 스킬 모음",
+  "easy": "Claude Code, Codex, Cursor 같은 AI 코딩 에이전트에게 NestJS의 최신 API와 흔한 실수 사례를 알려주는 스킬 묶음입니다. NestJS 서버를 AI와 함께 만들거나 인증, 데이터 저장, 엔드포인트를 추가할 때 쓰면 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-22"
  }
 }
