@@ -1276,5 +1276,89 @@
   "easy": "HTML, CSS, JavaScript로 영상을 작성하면 MP4로 뽑아 주는 HeyGen의 오픈소스 영상 편집 프레임워크입니다. Claude Code 같은 AI 에이전트나 Studio 앱으로 자막 추가, 컷 편집, 영상 리메이크를 할 때 씁니다.",
   "exclude": false,
   "at": "2026-11-23"
+ },
+ "ScrapeCreators/social-media-research-skills": {
+  "description": "SNS 조사용 AI 에이전트 스킬 모음(ScrapeCreators 기반)",
+  "easy": "TikTok, Instagram, YouTube 같은 SNS의 공개 데이터로 인기 게시물 찾기, 댓글 분석, 경쟁사 분석을 AI 에이전트가 대신 하게 해 주는 스킬 모음입니다. 마케팅이나 시장조사 때 쓰며, ScrapeCreators API 키가 필요합니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "HeyChengC/wallstreet-explainer": {
+  "description": "월가 스타일 재테크·기술 해설 숏폼을 만드는 AI 스킬",
+  "easy": "주제를 주면 AI가 대본 작성, 자료 수집, 더빙, 영상 렌더링까지 해서 월가 스타일 해설 숏폼을 만들어 주는 스킬입니다. 가로·세로 영상 모두 지원하며, 금융·기술 해설 영상을 빠르게 만들고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "TubeLabHQ/youtube-research-skills": {
+  "description": "YouTube 조사용 AI 에이전트 스킬 모음(TubeLab 기반)",
+  "easy": "유망한 니치 찾기, 경쟁 채널 분석, 댓글 분석, 제목·썸네일 아이디어 도출을 AI 에이전트가 해 주는 스킬 모음입니다. YouTube 채널을 기획하거나 분석할 때 쓰며, TubeLab 계정이 필요합니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "pritamux/gridlines": {
+  "description": "UI 정렬 점검과 패딩 수정을 돕는 에이전트 스킬",
+  "easy": "화면에 세로 기준선을 그려 어긋난 요소를 찾아내고 패딩을 고쳐 주는 AI 에이전트 스킬입니다. 사이드바, 툴바, 표처럼 가장자리를 맞춰야 하는 UI를 다듬을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "alonzoalejandro579-pixel/lightroom-classic-fakalan-photo-workflow": {
+  "description": "Lightroom 우회 설치를 내세운 PowerShell 배포 의심 저장소",
+  "easy": "Lightroom Classic 워크플로 도구라고 소개하지만, 실제로는 '대체 접근'이라는 명목으로 PowerShell 스크립트 설치를 유도하고 암호화폐 후원 주소를 단 저장소입니다. 불법 소프트웨어나 악성코드 배포가 의심되므로 실행하지 않는 것이 안전합니다.",
+  "exclude": true,
+  "at": "2026-11-24"
+ },
+ "shnfatih-hash/devlet-arsivleri-soykutugu": {
+  "description": "e-Devlet·국가 문서보관소로 족보와 마을사를 조사하는 스킬",
+  "easy": "튀르키예 e-Devlet 가계 정보와 오스만·공화국 국가 문서보관소 자료를 바탕으로 부계·모계 족보와 마을 역사를 근거 문서와 함께 추적하는 AI 스킬입니다. 비밀번호를 제공하지 않고 공개 목록과 직접 내려받은 문서로 가문 조사를 할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "Metwalyy/adobe-photoshop-salor-photo-editor": {
+  "description": "Photoshop 클라이언트를 내세운 PowerShell 배포 의심 저장소",
+  "easy": "레이어 기반 사진 편집기라고 소개하지만, PowerShell 스크립트로 설치를 유도하고 암호화폐 후원 주소를 단 저장소입니다. 정품이 아닌 Adobe 제품 배포나 악성코드 가능성이 있어 실행하지 않는 것이 안전합니다.",
+  "exclude": true,
+  "at": "2026-11-24"
+ },
+ "AI4XE/ai4ai": {
+  "description": "AI가 스스로 상태 확인·컨텍스트 갱신·복제를 하는 키트",
+  "easy": "Claude Code, Codex, OpenCode 같은 AI 도구 안에서 AI가 자신의 컨텍스트 사용량을 확인하고, 컨텍스트를 새로 고치고, 자기 복사본을 만들 수 있게 해 주는 확장 키트입니다. 긴 작업 중 컨텍스트가 차거나 작업을 나눠 맡겨야 할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "zeative/motion-educator": {
+  "description": "주제만 주면 설명 영상을 만들어 주는 에이전트 스킬과 영상 엔진",
+  "easy": "AI 에이전트에게 주제를 말하면 자료 조사, 스토리보드, 1080p60 영상 렌더링까지 코드로 만들어 주는 도구입니다. 제품 소개나 교육용 설명 영상을 만들 때 쓰며, 스토리보드를 승인해야 렌더링이 시작됩니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "arbade/konsil": {
+  "description": "여러 AI 전문의가 사례를 검토하는 Claude Code 플러그인",
+  "easy": "환자 병력, 검사 수치, 판독 보고서를 바탕으로 여러 AI 전문의 에이전트가 따로 의견을 내고 반대 의견까지 남긴 회의록을 만드는 도구입니다. 진료 전 준비나 세컨드 오피니언 자료용이며 의료기기나 진단 도구는 아닙니다. DICOM을 3D로 보여 주는 기능이 있어 의료영상(DICOM·PACS) 개발팀이 참고하기 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "OpenMed/GLiNER2.5-ProceduresTests-Small-v1": {
+  "description": "의료 문서에서 시술·검사 용어를 추출하는 NER 모델",
+  "easy": "의료 텍스트에서 진단, 검사, 치료 같은 시술 관련 용어를 찾아 표시해 주는 작은 AI 모델입니다. 진료 기록이나 논문에서 시술·검사 정보를 자동으로 뽑아 정리할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "prov-gigapath/prov-gigapath": {
+  "description": "병리 이미지 특징을 추출하는 Prov-GigaPath 모델",
+  "easy": "병리 조직 이미지를 숫자 특징(임베딩)으로 바꿔 주는 의료 영상용 AI 모델입니다. 병리 이미지 분류나 검색 같은 후속 분석의 기초 데이터를 만들 때 씁니다. 의료영상을 다루는 팀이 AI 분석 기능을 검토할 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "google/hear-pytorch": {
+  "description": "Google의 의료 영상·음향 임베딩 모델 HeAR",
+  "easy": "기침 소리 같은 건강 관련 음향에서 특징을 뽑아 주는 Google의 AI 모델입니다. 호흡기 질환 관련 소리를 분석하는 모델을 만들 때 기반으로 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
+ },
+ "mradermacher/qwen-0.6b-mentalhealth-support-i1-GGUF": {
+  "description": "정신건강 상담용 Qwen 0.6B 모델의 GGUF 양자화본",
+  "easy": "정신건강 대화 지원용으로 튜닝된 작은 Qwen 언어 모델을 가볍게 줄여 놓은 파일입니다. 일반 PC나 소형 장비에서 대화형 상담 보조 기능을 실험할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-24"
  }
 }
