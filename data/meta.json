@@ -1462,5 +1462,65 @@
   "easy": "Gemma 3를 바탕으로 만든 의료 특화 AI 모델로, 흉부 X-ray·피부·병리·안과 같은 의료 이미지와 글을 함께 다룹니다. 의료 AI 앱을 만들 때 추가 학습(파인튜닝)의 출발점으로 쓰며, DICOM/PACS 개발팀이라면 영상 판독 보조 기능을 실험할 때 참고할 수 있습니다.",
   "exclude": false,
   "at": "2026-11-26"
+ },
+ "felipebasurto/unslop-ui": {
+  "description": "UI 문구·차트에서 AI 티 나는 장식을 걷어내는 에이전트 스킬",
+  "easy": "AI가 만든 화면에 흔히 붙는 불필요한 라벨, 번호, 반복 부제, 가짜 상태 점 같은 장식을 찾아 지워 주는 스킬입니다. 에이전트에 파일과 저장소 링크를 주면 정리하고, 무엇을 지웠는지 보고합니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "kurbaitaev/ghost-editor": {
+  "description": "Claude Code용 오픈소스 AI 영상 편집 스킬, 릴스 19종 스타일",
+  "easy": "말하는 얼굴 위주로 찍은 원본 영상을 자막과 모션이 들어간 짧은 릴스로 편집해 주는 스킬입니다. Claude Code에 설치하고 원하는 스타일을 말하면 Mac에서 렌더링해 결과물을 만듭니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "phuryn/product-engineering": {
+  "description": "기획부터 개발·리뷰·배포까지 돕는 에이전트 스킬 38종 모음",
+  "easy": "무엇을 만들지 정하고, Claude Code나 Codex로 구현하고, 다른 모델로 검토한 뒤 배포하는 과정을 단계별로 돕는 스킬 모음입니다. 코딩 에이전트로 제품을 만드는 기획자나 개발자가 작업 흐름을 잡을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "nexu-io/opengame": {
+  "description": "코딩 에이전트로 3D·미니 게임을 만들고 배포하는 AI 게임 스튜디오",
+  "easy": "Claude Code, Codex 같은 코딩 에이전트를 게임 제작 도구로 바꿔 주는 오픈소스입니다. 템플릿을 고쳐 게임을 만들고 WeChat, TikTok 같은 곳에 배포할 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "uxpilot-ai/frontend-design-skill": {
+  "description": "UX Pilot에서 화면을 설계한 뒤 코드로 구현하는 디자인 스킬",
+  "easy": "코드를 만들기 전에 UX Pilot 캔버스에서 화면 디자인을 먼저 만들고, 고른 화면을 내 프로젝트의 컴포넌트로 구현해 주는 스킬입니다. 새 화면의 디자인과 구현을 에이전트에게 맡길 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "blotato/contentskills": {
+  "description": "영상 제작·편집, 대본, SNS 게시까지 하는 콘텐츠 에이전트 스킬",
+  "easy": "대본 작성, 영상 제작과 편집, 효과 추가, SNS 게시, DM 자동화를 AI 에이전트에게 시킬 수 있게 해 주는 스킬 모음입니다. 마케팅이나 홍보 영상을 빠르게 만들어 올릴 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "neuroneural/brainchop": {
+  "description": "브라우저에서 3D MRI 뇌 분할과 렌더링을 하는 도구",
+  "easy": "MRI 뇌 영상을 서버에 올리지 않고 브라우저 안에서 바로 분할하고 3D로 보여 주는 도구입니다. 두개골 제거나 뇌 영역 구분을 간단히 확인할 때 쓰며, 연구·교육용이고 임상 진단용은 아닙니다. DICOM·NIfTI를 다루는 의료영상 팀이 웹 뷰어 참고용으로 볼 만합니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "Sage-Med/Sage-Med-Preview": {
+  "description": "의료 영상·텍스트를 다루는 멀티모달 모델 프리뷰",
+  "easy": "의료 영상 질의응답, 판독문 생성, 시각적 위치 찾기 등을 겨냥한 멀티모달 AI 모델입니다. 설명 문서가 비어 있어 자세한 사용법은 알기 어렵고, 의료영상 AI를 살펴볼 때 참고할 수 있습니다.",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "nathanrchn/OpenTSLM-LFM3-1.7B-ECG": {
+  "description": "심전도(ECG) 시계열을 해석하는 OpenTSLM 기반 1.7B 모델",
+  "easy": "심전도 같은 시간에 따른 신호 데이터를 언어 모델이 읽고 설명하도록 만든 의료용 AI 모델입니다. ECG 파형 분석이나 해석 연구, 프로토타입을 만들 때 쓸 수 있으며, DICOM·PACS 팀이라면 ECG 파형 데이터를 연동하는 연구에 참고할 수 있습니다. (README가 없어 세부 내용은 확인이 필요합니다.)",
+  "exclude": false,
+  "at": "2026-11-27"
+ },
+ "Saathimed/AxonMed-32B-Flash": {
+  "description": "임상 추론과 EHR 처리에 특화된 320억 파라미터 의료 언어 모델",
+  "easy": "Qwen2 기반으로 만든 의료 분야 텍스트 생성 모델로, USMLE 같은 의학 시험 문제와 전자의무기록(EHR), PubMed 문헌을 다루는 데 맞춰져 있습니다. 임상 질의응답이나 의료 문서 요약 같은 연구·실험에 쓸 수 있으며, 실제 진단에 쓰기에는 검증이 필요합니다. (README가 없어 세부 내용은 확인이 필요합니다.)",
+  "exclude": false,
+  "at": "2026-11-27"
  }
 }
