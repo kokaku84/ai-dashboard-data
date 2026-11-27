@@ -1522,5 +1522,11 @@
   "easy": "Qwen2 기반으로 만든 의료 분야 텍스트 생성 모델로, USMLE 같은 의학 시험 문제와 전자의무기록(EHR), PubMed 문헌을 다루는 데 맞춰져 있습니다. 임상 질의응답이나 의료 문서 요약 같은 연구·실험에 쓸 수 있으며, 실제 진단에 쓰기에는 검증이 필요합니다. (README가 없어 세부 내용은 확인이 필요합니다.)",
   "exclude": false,
   "at": "2026-11-27"
+ },
+ "Haruhi764/OmniCAD-Skill": {
+  "description": "수정 가능한 DXF·DWG·PDF 2D 도면을 만드는 AI CAD 자동 제도 스킬",
+  "easy": "OmniCAD-Skill은 Codex 같은 AI 에이전트가 치수와 요구사항을 받아 편집 가능한 DXF 도면을 그리고, AutoCAD가 설치된 Windows에서는 DWG와 PDF까지 내보내며 검수까지 해 주는 도구입니다. 건축·토목·기계 도면을 반복해서 만들거나 도면 품질을 자동으로 확인하고 싶을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-27"
  }
 }
