@@ -1528,5 +1528,47 @@
   "easy": "OmniCAD-Skill은 Codex 같은 AI 에이전트가 치수와 요구사항을 받아 편집 가능한 DXF 도면을 그리고, AutoCAD가 설치된 Windows에서는 DWG와 PDF까지 내보내며 검수까지 해 주는 도구입니다. 건축·토목·기계 도면을 반복해서 만들거나 도면 품질을 자동으로 확인하고 싶을 때 씁니다.",
   "exclude": false,
   "at": "2026-11-27"
+ },
+ "DeadInternetStudios/100x-engineer-skill": {
+  "description": "AI 코딩 에이전트가 검증된 코드를 내도록 돕는 스킬",
+  "easy": "Claude Code, Cursor, Codex 같은 AI 코딩 에이전트에 붙이는 오픈소스 스킬입니다. 작업을 작은 블록으로 나눠 각각 검증한 뒤 서로 맞물리는지 확인하므로, 에이전트가 만든 '거의 되는' 코드를 배포 가능한 수준으로 다듬을 때 씁니다.",
+  "exclude": false,
+  "at": "2026-11-28"
+ },
+ "Red2076-arch/waifu2x-image-upscaler-windows": {
+  "description": "Vulkan GPU로 이미지를 확대·노이즈 제거하는 Windows 앱",
+  "easy": "AI로 작은 이미지를 크게 키우고 잡티를 줄여 주는 Windows용 프로그램입니다. 애니 그림이나 해상도가 낮은 사진을 선명하게 만들고 싶을 때 쓰며, 실행 파일은 릴리스에서 내려받으므로 출처를 확인하고 설치하는 게 좋습니다.",
+  "exclude": false,
+  "at": "2026-11-28"
+ },
+ "Codelab781/windows-clipboard-sync-manager": {
+  "description": "기기 간 동기화를 지원하는 Windows 클립보드 관리자",
+  "easy": "복사한 텍스트·이미지·파일의 기록을 보관하고 다른 기기와 동기화해 주는 Windows용 클립보드 도구입니다. 여러 PC를 오가며 작업할 때 복사한 내용을 다시 꺼내 쓰거나 옮기는 데 편합니다.",
+  "exclude": false,
+  "at": "2026-11-28"
+ },
+ "Quill400/windows-image-viewer": {
+  "description": "보기·편집·폴더 관리를 지원하는 가벼운 이미지 뷰어",
+  "easy": "사진을 빠르게 넘겨 보고 자르기·회전·크기 조절까지 할 수 있는 Windows용 이미지 뷰어입니다. 폴더 속 사진을 훑어보거나 단축키로 파일을 정리할 때 쓰며, C++/Qt 기반이라 영상 뷰어 UI를 만드는 팀이 참고해 볼 만합니다.",
+  "exclude": false,
+  "at": "2026-11-28"
+ },
+ "everyinfra/seo-skills": {
+  "description": "18개 언어 시장을 다루는 SEO/GEO AI 에이전트 스킬",
+  "easy": "Claude Code, Codex 같은 AI 도구에 설치해 검색엔진 최적화(SEO)와 AI 답변 최적화(GEO) 작업을 시키는 스킬 모음입니다. 여러 나라에 서비스를 내놓을 때 시장별 키워드와 콘텐츠 점검을 한 번에 하려고 쓰며, 설치는 스크립트 한 줄로 끝납니다.",
+  "exclude": false,
+  "at": "2026-11-28"
+ },
+ "kingcharleslzy-ai/DSH-Spicy": {
+  "description": "DeepSeek Harness용 NSFW 이미지·영상 생성 플러그인",
+  "easy": "DeepSeek Harness에 붙여 성인용 이미지와 영상을 만드는 플러그인으로, 제한 해제(purge)를 전제로 한 NSFW 콘텐츠 제작 도구입니다. 업무용으로 쓸 곳이 없고 안전장치 우회 성격도 있어 팀 소개 목록에서는 제외하는 편이 안전합니다.",
+  "exclude": true,
+  "at": "2026-11-28"
+ },
+ "internlm/Sage-Med-Preview": {
+  "description": "의료 영상 질의응답·리포트 생성용 멀티모달 모델",
+  "easy": "의료 이미지를 보고 질문에 답하고 판독 리포트 초안을 쓰며 병변 위치도 짚는 멀티모달 AI 모델의 프리뷰 버전입니다. 의료 영상 AI를 실험할 때 쓸 수 있어 DICOM·PACS 팀이 영상 분석 기능을 검토할 때 참고할 만하지만, README가 비어 있어 자세한 사용법은 따로 확인해야 합니다.",
+  "exclude": false,
+  "at": "2026-11-28"
  }
 }
